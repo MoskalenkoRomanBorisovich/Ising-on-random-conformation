@@ -96,13 +96,28 @@ cdef void flip_spin(long[::1] spins,
 def simulate(Py_ssize_t L,
              long[:, ::1] neighbors,
              double beta,
-             Py_ssize_t num_sweeps):
-
+             Py_ssize_t num_sweeps,
+             int num_therm = 100000,
+             int to_print = 0):
+    
+    '''
+    L - length of the conformation
+    neighbors - table of neighbor indexes
+    beta - invere temperature
+    num_sweeps - number of sweeps for the measurement
+    num_therm - number of thermolisation sweeps
+    to_print :
+        0 - intermediate values will not be printed 
+        1 -intermediate values will be printed 
+    
+    '''
+    
+    
     # set up the lattice
     cdef:   
         double T = 1./beta
 
-    print(np.asarray(neighbors))
+    # print(np.asarray(neighbors))
     print("beta = ", beta, "  T = ", 1./beta)
 
 
@@ -110,7 +125,6 @@ def simulate(Py_ssize_t L,
     cdef RndmWrapper rndm = RndmWrapper((1234, 0))
 
     cdef:
-        int num_therm = L * int(1e3)
         int num_prnt = 10000
         int steps_per_sweep = 1000
         int step = 0, sweep = 0
@@ -120,6 +134,7 @@ def simulate(Py_ssize_t L,
         RealObservable ene = RealObservable()
         RealObservable mag2 = RealObservable()
         RealObservable mag4 = RealObservable()
+        list ene_arr = []
 
     cdef double[::1] ratios = np.empty(9, dtype=float)
     culc_ratios(ratios, beta)
@@ -127,7 +142,8 @@ def simulate(Py_ssize_t L,
     # initialize spins
     cdef long[::1] spins =  np.empty(L, dtype=int)
     init_spins(spins, rndm)
-    print("initial config: ", np.asarray(spins))
+    print("Conformation size =", L)
+    # print("initial config: ", np.asarray(spins))
 
     # thermalization
     for sweep in range(num_therm):
@@ -142,27 +158,29 @@ def simulate(Py_ssize_t L,
             flip_spin(spins, neighbors, beta, ratios, rndm)
         
         # measurement
-        av_en += energy(spins, neighbors)
+        av_en += energy(spins, neighbors) / L
         mag_sq = (magnetization(spins) / L) ** 2
         Z += 1
-        ene.add_measurement(energy(spins, neighbors))
+        ene.add_measurement(energy(spins, neighbors) / L)
         mag2.add_measurement(mag_sq)
         mag4.add_measurement(mag_sq**2)
         
         # printout
         if sweep % num_prnt == 0:
-            print("\n----- sweep = ", sweep, "spins = ", np.asarray(spins), "beta = ", beta)
-            print("  ene = ", av_en / Z, " (naive)")
-            print("      = ", ene.mean, '+/-', ene.errorbar)
-
-            print("  mag^2 = ", mag2.mean, '+/-', mag2.errorbar)
-            print("  mag^4 = ", mag4.mean, '+/-', mag4.errorbar)
+            ene_arr.append(copy.deepcopy(ene))
+            if to_print == 1:
+                print("\n----- sweep = ", sweep, "spins = ", np.asarray(spins), "beta = ", beta)
+                print("  ene = ", av_en / Z, " (naive)")
+                print("      = ", ene.mean, '+/-', ene.errorbar)
+    
+                print("  mag^2 = ", mag2.mean, '+/-', mag2.errorbar)
+                print("  mag^4 = ", mag4.mean, '+/-', mag4.errorbar)
             # uncomment to check the block stats
             #ene.pretty_print_block_stats()
     
     print("\nFinal:")
     print("  ene = ", av_en / Z, " (naive)")
-    print("      = ", ene.mean, '+/-', ene.errorbar)
+    print("  ene = ", ene.mean, '+/-', ene.errorbar)
 
     print("  mag^2 = ", mag2.mean, '+/-', mag2.errorbar)
     print("  mag^4 = ", mag4.mean, '+/-', mag4.errorbar)
@@ -183,6 +201,6 @@ def simulate(Py_ssize_t L,
         raise RuntimeError("did not converge")
         
     '''
-    return ene, mag2, mag4
+    return ene, mag2, mag4, ene_arr
 
 
