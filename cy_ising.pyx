@@ -98,7 +98,8 @@ def simulate(Py_ssize_t L,
              double beta,
              Py_ssize_t num_sweeps,
              int num_therm = 100000,
-             int to_print = 0):
+             int to_print = 0,
+             int sampl_frequency = 10000):
     
     '''
     L - length of the conformation
@@ -165,9 +166,12 @@ def simulate(Py_ssize_t L,
         mag2.add_measurement(mag_sq)
         mag4.add_measurement(mag_sq**2)
         
+        # energy samples
+        if sweep % sampl_frequency:
+            ene_arr.append(copy.deepcopy(ene))
+
         # printout
         if sweep % num_prnt == 0:
-            ene_arr.append(copy.deepcopy(ene))
             if to_print == 1:
                 print("\n----- sweep = ", sweep, "spins = ", np.asarray(spins), "beta = ", beta)
                 print("  ene = ", av_en / Z, " (naive)")
@@ -201,6 +205,6 @@ def simulate(Py_ssize_t L,
         raise RuntimeError("did not converge")
         
     '''
-    return ene, mag2, mag4, ene_arr
+    return ene, mag2, mag4, np.array(ene_arr, dtype=RealObservable)
 
 

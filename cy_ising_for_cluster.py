@@ -75,7 +75,9 @@ def measure_structure(struct_1, b_min=0, b_max=1, N=10, n_sweeps=100000, num_the
                                                                  num_sweeps=n_sweeps,
                                                                  num_therm=num_therm)
     
-    return ene, mag2, mag4, ene_arr, mean_nghbrs
+    
+    
+    return ene, mag2, mag4, np.array(ene_arr), mean_nghbrs
 
 
 def main(argv):
@@ -96,9 +98,9 @@ def main(argv):
     
     struct = read_conformation(inputfile)
     L = len(struct)
-    ene, mag2, mag4, _, _ = measure_structure(struct, 0, 1, 10, L * 10000, L * 1000)
+    ene, mag2, mag4, ene_samples, _ = measure_structure(struct, 0, 1, 10, n_sweeps=L * 10000, num_therm=L * 1000)
     
-    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4)
+    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_samp=ene_samples)
     
 
 print('hey')
