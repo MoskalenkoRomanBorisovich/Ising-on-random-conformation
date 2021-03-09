@@ -1,7 +1,7 @@
 conf_only_v0
 2       ! dimensionality
-250     ! Lattice size
-49      ! L
+500     ! Lattice size
+100      ! L
 1.0d0   ! U/T
 1.0       ! J/T
 0       ! 0 if new configuration, 1 if old one
