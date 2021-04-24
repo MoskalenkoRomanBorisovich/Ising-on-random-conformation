@@ -1,4 +1,0 @@
-50
-50 # number of replicas per set of parametrs
-
-10 betas from 0.1 to 1
