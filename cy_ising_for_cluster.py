@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Thu Mar  4 20:42:05 2021
 
@@ -6,7 +6,7 @@ Created on Thu Mar  4 20:42:05 2021
 """
 
 import numpy as np
-import cy_ising
+import cy_ising_cluster
 
 import sys, getopt
 
@@ -64,20 +64,23 @@ def measure_structure(struct_1, b_min=0, b_max=1, N=10, n_sweeps=100000, num_the
     ene_arr = [0] * N
     neighbors = tabulate_neighbors(struct_1)
     
-    mean_nghbrs = mean_conections(neighbors)
+    # mean_nghbrs = mean_conections(neighbors)
     L = len(struct_1)
-    betas = np.linspace(b_min+b_max/N, b_max, N)
+    betas = np.linspace(b_min+(b_max-b_min)/N, b_max, N)
     
     for i in range(N):
-        ene[i], mag2[i], mag4[i], ene_arr[i] = cy_ising.simulate(L=L,
+        #upd_per_sweep = max(1, int(10 * betas[i]))
+        ene[i], mag2[i], mag4[i], ene_arr[i] = cy_ising_cluster.simulate(L=L,
                                                                  neighbors=neighbors,
                                                                  beta=betas[i],
                                                                  num_sweeps=n_sweeps,
-                                                                 num_therm=num_therm)
+                                                                 num_therm=num_therm,
+                                                                 sampl_frequency = 100000,
+                                                                 do_intermediate_measure = 1)
     
     
     
-    return ene, mag2, mag4, np.array(ene_arr), mean_nghbrs
+    return ene, mag2, mag4, np.array(ene_arr)
 
 
 def main(argv):
@@ -97,14 +100,15 @@ def main(argv):
             outputfile = arg
     
     struct = read_conformation(inputfile)
-    L = len(struct)
-    ene, mag2, mag4, ene_samples, _ = measure_structure(struct, 0, 1, 10, n_sweeps=L * 10000, num_therm=L * 1000)
+    # L = len(struct)
     
-    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_samp=ene_samples)
+    # therm = 300000 is usually enough for L <= 1000
+    ene, mag2, mag4, ene_arr = measure_structure(struct, 0, 1, 10,
+                                                        n_sweeps=1000000,
+                                                        num_therm=300000)
+    print('number of energy measurments: ', ene_arr.shape)
+    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_arr=ene_arr)
     
-
-print('hey')
 
 if __name__ == "__main__":
-    print('hey hey')
     main(sys.argv[1:])
