@@ -6,6 +6,8 @@ from mc_lib.lattices import tabulate_neighbors
 
 cimport cython
 from libc.math cimport exp, tanh
+from libcpp.vector cimport vector
+from libcpp cimport bool
 
 from mc_lib.rndm cimport RndmWrapper
 from mc_lib.observable cimport RealObservable
@@ -89,7 +91,47 @@ cdef void flip_spin(long[::1] spins,
     spins[site] = -spins[site]
     
 
-
+@cython.boundscheck(False)
+@cython.wraparound(False)
+cdef void cluster_update(long[::1] spins,
+                         const long[:, ::1] neighbors,
+                         double beta,
+                         RndmWrapper rndm):
+    cdef:
+        vector[int] pocket
+        vector[int] cluster
+        int cur, cur_id
+        int nghbr
+        double p = 1.0 - exp(-2.0 * beta)
+        int i, j
+        bool in_cluster
+        
+    cur = int(spins.shape[0] * rndm.uniform())
+    pocket.push_back(cur)
+    cluster.push_back(cur)
+    
+    while not pocket.empty():
+        cur_id = int(pocket.size() * rndm.uniform())
+        cur = pocket[cur_id]
+        for i in range(1, neighbors[cur, 0] + 1):
+            nghbr = neighbors[cur, i]
+            if spins[cur] != spins[nghbr]:
+                continue
+            
+            in_cluster = False
+            for j in range(cluster.size()):
+                if cluster[j] == nghbr:
+                    in_cluster = True
+                    break
+                
+            if not in_cluster and rndm.uniform() < p:
+                cluster.push_back(nghbr)
+                pocket.push_back(nghbr)
+                
+        pocket.erase(pocket.begin() + cur_id)
+        
+    for i in range(cluster.size()):
+        spins[cluster[i]] *= -1
 
 ##########################################################################3
 
@@ -127,7 +169,7 @@ def simulate(Py_ssize_t L,
 
     cdef:
         int num_prnt = 10000
-        int steps_per_sweep = 1000
+        int steps_per_sweep = 10000
         int step = 0, sweep = 0
         int i, j
         double av_en = 0., Z = 0., mag_sq = 0.
@@ -136,6 +178,7 @@ def simulate(Py_ssize_t L,
         RealObservable mag2 = RealObservable()
         RealObservable mag4 = RealObservable()
         list ene_arr = []
+        double choose_update
 
     cdef double[::1] ratios = np.empty(9, dtype=float)
     culc_ratios(ratios, beta)
