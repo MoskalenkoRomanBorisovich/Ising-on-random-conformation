@@ -1,2 +1,0 @@
-100
-10 # number of replicas per set of parametrs
