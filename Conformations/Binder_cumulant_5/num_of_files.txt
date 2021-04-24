@@ -1,0 +1,2 @@
+90
+30 # number of replicas per set of parametrs
