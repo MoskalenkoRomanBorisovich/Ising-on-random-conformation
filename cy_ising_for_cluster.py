@@ -23,6 +23,7 @@ def read_conformation(fname):
         
         struct_conf += [[int(line_ar[0]), int(line_ar[1])]]
         
+    f.close()
     return struct_conf
 
 
