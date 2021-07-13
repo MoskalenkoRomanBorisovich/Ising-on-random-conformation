@@ -54,10 +54,12 @@ cdef int next_spins(long[::1] spins):
     
     return coef
 
-
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def calculate(Py_ssize_t L,
              long[:, ::1] neighbors,
-             double beta):
+             double beta,
+             int verbose = 0):
     
     cdef:   
         double T = 1./beta
@@ -71,14 +73,14 @@ def calculate(Py_ssize_t L,
         long cnt = 0
 
     # print(np.asarray(neighbors))
-    print("beta = ", beta, "  T = ", 1./beta)
+    if verbose >= 1:
+        print("beta = ", beta, "  T = ", 1./beta)
 
     
     # initialize spins
     cdef long[::1] spins =  np.ones(L, dtype=int)
     
     while True:
-        cnt += 1
         ene = energy(spins, neighbors)
         p = exp(-beta * ene)
         Z += p
@@ -86,10 +88,9 @@ def calculate(Py_ssize_t L,
         if next_spins(spins) == -1:
             break
         
-    print("count =", cnt)
     ene_total = ene_total / Z
     
     
-    return ene_total
+    return ene_total / L
     
     

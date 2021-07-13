@@ -105,8 +105,8 @@ def main(argv):
     
     # therm = 300000 is usually enough for L <= 1000
     ene, mag2, mag4, ene_arr = measure_structure(struct, 0, 1, 10,
-                                                        n_sweeps=1000000,
-                                                        num_therm=300000)
+                                                        n_sweeps=10000000,
+                                                        num_therm=500000)
     print('number of energy measurments: ', ene_arr.shape)
     np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_arr=ene_arr)
     
