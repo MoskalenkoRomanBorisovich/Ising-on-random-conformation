@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  20 APR 2021 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  11 JUL 2021 00:52
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -545,7 +545,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+Package hyperref Info: Option `colorlinks' set `false' on input line 24.
 
 ("C:\Program Files\MiKTeX\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -622,40 +622,31 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count283
 \l__pdf_internal_box=\box53
 )
-(Report.aux (Sections/Code.aux) (Sections/Results.aux))
+(Report.aux (Sections/Measurements.aux))
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \th on input line 47.
-
-("C:\Program Files\MiKTeX\tex/latex/graphics\color.sty"
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Info: Redefining \th on input line 48.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -668,9 +659,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (Report.out) (Report.out)
 \@outlinefile=\write3
@@ -700,173 +691,334 @@ Package caption Info: End \AtBeginDocument code.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 50.
+(Font)              using `T2A/cmr/m/n' instead on input line 51.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 5
-0.
+1.
 
 ("C:\Program Files\MiKTeX\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 50.
+(Font)              using `OML/cmr/m/it' instead on input line 51.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 50.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 50.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 50.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
-0.
+1.
 ("C:\Program Files\MiKTeX\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 50.
+(Font)              using `OMS/cmr/m/n' instead on input line 51.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 5
-0.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 50.
+1.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 51.
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 50.
+(Font)              using `PD1/pdf/m/n' instead on input line 51.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 50
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 51
 .
-LaTeX Font Info:    No file PUcmr.fd. on input line 50.
+LaTeX Font Info:    No file PUcmr.fd. on input line 51.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 50.
+(Font)              using `PU/pdf/m/n' instead on input line 51.
 
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 50
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 51
 .
 ("C:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+) (Sections/General.tex
+<images//../images/loose_conf.png, id=28, 350.30875pt x 231.86626pt>
+File: images//../images/loose_conf.png Graphic file (type png)
+<use images//../images/loose_conf.png>
+Package pdftex.def Info: images//../images/loose_conf.png  used on input line 9
+.
+(pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
+<images//../images/dense_conf.png, id=30, 350.30875pt x 231.86626pt>
+File: images//../images/dense_conf.png Graphic file (type png)
+<use images//../images/dense_conf.png>
+Package pdftex.def Info: images//../images/dense_conf.png  used on input line 1
+0.
+(pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
 
-{C:/Users/Роман/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-\openout2 = `Sections/Code.aux'.
+[1
 
- (Sections/Code.tex
-<images//../images/1spin_&_cluster_ene.png, id=33, 395.4775pt x 283.0575pt>
+{C:/Users/Роман/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images//
+../images/loose_conf.png> <./images//../images/dense_conf.png>])
+(Sections/Code.tex
+<images//../images/1spin_&_cluster_ene.png, id=43, 395.4775pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_ene.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene.png  used on inp
 ut line 13.
 (pdftex.def)             Requested size: 175.49881pt x 125.61249pt.
-<images//../images/1spin_&_cluster_ene_dif.png, id=35, 408.52625pt x 283.0575pt
+<images//../images/1spin_&_cluster_ene_dif.png, id=44, 408.52625pt x 283.0575pt
 >
 File: images//../images/1spin_&_cluster_ene_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene_dif.png  used on
  input line 14.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
-<images//../images/1spin_&_cluster_mag.png, id=36, 393.47pt x 283.0575pt>
+<images//../images/1spin_&_cluster_mag.png, id=45, 393.47pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_mag.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag.png  used on inp
 ut line 15.
 (pdftex.def)             Requested size: 175.49881pt x 126.25172pt.
-<images//../images/1spin_&_cluster_mag_dif.png, id=37, 408.52625pt x 283.0575pt
+<images//../images/1spin_&_cluster_mag_dif.png, id=46, 408.52625pt x 283.0575pt
 >
 File: images//../images/1spin_&_cluster_mag_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag_dif.png  used on
  input line 16.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
-<images//../images/1D_conf.png, id=38, 350.30875pt x 231.86626pt>
+ [2]
+<images//../images/1D_conf.png, id=57, 350.30875pt x 231.86626pt>
 File: images//../images/1D_conf.png Graphic file (type png)
 <use images//../images/1D_conf.png>
-Package pdftex.def Info: images//../images/1D_conf.png  used on input line 28.
+Package pdftex.def Info: images//../images/1D_conf.png  used on input line 26.
 (pdftex.def)             Requested size: 272.99881pt x 180.70634pt.
-<images//../images/1D_ene.png, id=39, 395.4775pt x 266.9975pt>
+<images//../images/1D_ene.png, id=58, 395.4775pt x 266.9975pt>
 File: images//../images/1D_ene.png Graphic file (type png)
 <use images//../images/1D_ene.png>
-Package pdftex.def Info: images//../images/1D_ene.png  used on input line 31.
+Package pdftex.def Info: images//../images/1D_ene.png  used on input line 29.
 (pdftex.def)             Requested size: 272.99881pt x 184.30994pt.
-<images//../images/1D_ene_diff.png, id=40, 421.575pt x 270.00874pt>
+<images//../images/1D_ene_diff.png, id=59, 421.575pt x 270.00874pt>
 File: images//../images/1D_ene_diff.png Graphic file (type png)
 <use images//../images/1D_ene_diff.png>
 Package pdftex.def Info: images//../images/1D_ene_diff.png  used on input line 
-32.
+30.
 (pdftex.def)             Requested size: 272.99881pt x 174.85263pt.
+ [3 <./images//../images/1spin_&_cluster_ene.png> <./images//../images/1spin_&_
+cluster_ene_dif.png> <./images//../images/1spin_&_cluster_mag.png> <./images//.
+./images/1spin_&_cluster_mag_dif.png>] [4 <./images//../images/1D_conf.png> <./
+images//../images/1D_ene.png> <./images//../images/1D_ene_diff.png>]) [5]
+\openout2 = `Sections/Measurements.aux'.
+
+ (Sections/Measurements.tex
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+<images//../images/dense_cumulant.png, id=82, 387.4475pt x 283.0575pt>
+File: images//../images/dense_cumulant.png Graphic file (type png)
+<use images//../images/dense_cumulant.png>
+Package pdftex.def Info: images//../images/dense_cumulant.png  used on input li
+ne 10.
+(pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
+<images//../images/dense_magnetization.png, id=83, 392.46625pt x 287.0725pt>
+File: images//../images/dense_magnetization.png Graphic file (type png)
+<use images//../images/dense_magnetization.png>
+Package pdftex.def Info: images//../images/dense_magnetization.png  used on inp
+ut line 11.
+(pdftex.def)             Requested size: 187.19833pt x 136.9303pt.
+<images//../images/loose_cumulant.png, id=84, 387.4475pt x 283.0575pt>
+File: images//../images/loose_cumulant.png Graphic file (type png)
+<use images//../images/loose_cumulant.png>
+Package pdftex.def Info: images//../images/loose_cumulant.png  used on input li
+ne 15.
+(pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
+<images//../images/loose_magnetization.png, id=85, 392.46625pt x 287.0725pt>
+File: images//../images/loose_magnetization.png Graphic file (type png)
+<use images//../images/loose_magnetization.png>
+Package pdftex.def Info: images//../images/loose_magnetization.png  used on inp
+ut line 16.
+(pdftex.def)             Requested size: 187.19833pt x 136.9303pt.
+
+Package caption Warning: \label without proper reference on input line 40.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:cumul_cor' on page 6 undefined on input line 23.
+
+[6
+
+ <./images//../images/dense_cumulant.png> <./images//../images/dense_magnetizat
+ion.png> <./images//../images/loose_cumulant.png> <./images//../images/loose_ma
+gnetization.png>]
+<images//../images/R_hist_L250.png, id=100, 433.62pt x 289.08pt>
+File: images//../images/R_hist_L250.png Graphic file (type png)
+<use images//../images/R_hist_L250.png>
+Package pdftex.def Info: images//../images/R_hist_L250.png  used on input line 
+27.
+(pdftex.def)             Requested size: 187.19833pt x 124.80042pt.
+<images//../images/R_hist_L500.png, id=101, 369.38pt x 287.0725pt>
+File: images//../images/R_hist_L500.png Graphic file (type png)
+<use images//../images/R_hist_L500.png>
+Package pdftex.def Info: images//../images/R_hist_L500.png  used on input line 
+28.
+(pdftex.def)             Requested size: 187.19833pt x 145.48515pt.
+<images//../images/R_hist_L1000.png, id=102, 375.4025pt x 287.0725pt>
+File: images//../images/R_hist_L1000.png Graphic file (type png)
+<use images//../images/R_hist_L1000.png>
+Package pdftex.def Info: images//../images/R_hist_L1000.png  used on input line
+ 29.
+(pdftex.def)             Requested size: 187.19833pt x 143.1548pt.
+<images//../images/R_hist_L2000.png, id=103, 369.38pt x 287.0725pt>
+File: images//../images/R_hist_L2000.png Graphic file (type png)
+<use images//../images/R_hist_L2000.png>
+Package pdftex.def Info: images//../images/R_hist_L2000.png  used on input line
+ 30.
+(pdftex.def)             Requested size: 187.19833pt x 145.48515pt.
+<images//../images/cumulant_to_R_L250.png, id=104, 433.62pt x 289.08pt>
+File: images//../images/cumulant_to_R_L250.png Graphic file (type png)
+<use images//../images/cumulant_to_R_L250.png>
+Package pdftex.def Info: images//../images/cumulant_to_R_L250.png  used on inpu
+t line 36.
+(pdftex.def)             Requested size: 187.19833pt x 124.80042pt.
+<images//../images/cumulant_to_R_L500.png, id=105, 433.62pt x 289.08pt>
+File: images//../images/cumulant_to_R_L500.png Graphic file (type png)
+<use images//../images/cumulant_to_R_L500.png>
+Package pdftex.def Info: images//../images/cumulant_to_R_L500.png  used on inpu
+t line 37.
+(pdftex.def)             Requested size: 187.19833pt x 124.80042pt.
+<images//../images/cumulant_to_R_L1000.png, id=106, 555.07375pt x 378.41376pt>
+File: images//../images/cumulant_to_R_L1000.png Graphic file (type png)
+<use images//../images/cumulant_to_R_L1000.png>
+Package pdftex.def Info: images//../images/cumulant_to_R_L1000.png  used on inp
+ut line 38.
+(pdftex.def)             Requested size: 187.19833pt x 127.61963pt.
+<images//../images/cumulant_to_R_L2000.png, id=107, 433.62pt x 289.08pt>
+File: images//../images/cumulant_to_R_L2000.png Graphic file (type png)
+<use images//../images/cumulant_to_R_L2000.png>
+Package pdftex.def Info: images//../images/cumulant_to_R_L2000.png  used on inp
+ut line 39.
+(pdftex.def)             Requested size: 187.19833pt x 124.80042pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [2
+<images//../images/mag2_to_R_L250.png, id=108, 433.62pt x 289.08pt>
+File: images//../images/mag2_to_R_L250.png Graphic file (type png)
+<use images//../images/mag2_to_R_L250.png>
+Package pdftex.def Info: images//../images/mag2_to_R_L250.png  used on input li
+ne 46.
+(pdftex.def)             Requested size: 390.0pt x 260.01079pt.
 
- <./images//../images/1spin_&_cluster_ene.png> <./images//../images/1spin_&_clu
-ster_ene_dif.png> <./images//../images/1spin_&_cluster_mag.png> <./images//../i
-mages/1spin_&_cluster_mag_dif.png>] [3 <./images//../images/1D_conf.png> <./ima
-ges//../images/1D_ene.png> <./images//../images/1D_ene_diff.png>]
-\openout2 = `Sections/Results.aux'.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images//../images/Cumulant_big.png, id=109, 719.68875pt x 437.635pt>
+File: images//../images/Cumulant_big.png Graphic file (type png)
+<use images//../images/Cumulant_big.png>
+Package pdftex.def Info: images//../images/Cumulant_big.png  used on input line
+ 58.
+(pdftex.def)             Requested size: 390.0pt x 237.16077pt.
+<images//../images/Cumulant_beta0.4_0.6.png, id=110, 433.62pt x 289.08pt>
+File: images//../images/Cumulant_beta0.4_0.6.png Graphic file (type png)
+<use images//../images/Cumulant_beta0.4_0.6.png>
+Package pdftex.def Info: images//../images/Cumulant_beta0.4_0.6.png  used on in
+put line 59.
+(pdftex.def)             Requested size: 390.0pt x 260.01079pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [7 <./images//../images/R_hist_L250.png> <./images//../images/R_hist_L500.png
+> <./images//../images/R_hist_L1000.png> <./images//../images/R_hist_L2000.png>
+] [8 <./images//../images/cumulant_to_R_L250.png> <./images//../images/cumulant
+_to_R_L500.png> <./images//../images/cumulant_to_R_L1000.png> <./images//../ima
+ges/cumulant_to_R_L2000.png>] [9 <./images//../images/mag2_to_R_L250.png>]
+[10 <./images//../images/Cumulant_big.png> <./images//../images/Cumulant_beta0.
+4_0.6.png>]
+Overfull \hbox (47.83418pt too wide) in paragraph at lines 64--65
+[]\T2A/cmr/m/up/12 ������ �� ��-��-��-��-���: https://github.com/MoskalenkoRoma
+nBorisovich/Ising-
+ []
+
+[11
 
 
-(Sections/Results.tex
-<images//../images/loose_conf.png, id=60, 350.30875pt x 231.86626pt>
-File: images//../images/loose_conf.png Graphic file (type png)
-<use images//../images/loose_conf.png>
-Package pdftex.def Info: images//../images/loose_conf.png  used on input line 8
-.
-(pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
-<images//../images/dense_conf.png, id=61, 350.30875pt x 231.86626pt>
-File: images//../images/dense_conf.png Graphic file (type png)
-<use images//../images/dense_conf.png>
-Package pdftex.def Info: images//../images/dense_conf.png  used on input line 9
-.
-(pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
-) [4
+] (Report.aux (Sections/Measurements.aux))
 
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
- <./images//../images/loose_conf.png> <./images//../images/dense_conf.png>] (Re
-port.aux (Sections/Code.aux) (Sections/Results.aux))
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 1BF91039F450FB799D6D208DA3E197E9;714.
-
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: 2953CB2E2F0A1B9E83DEE1CF86D9FA13;637
+(rerunfilecheck)             After:  AAA1EEAF03E92595892ABB832F35DAF1;961.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13462 strings out of 479799
- 198630 string characters out of 2879583
- 483836 words of memory out of 3000000
- 30166 multiletter control sequences out of 15000+200000
- 546351 words of font info for 55 fonts, out of 3000000 for 9000
+ 13605 strings out of 479799
+ 202516 string characters out of 2879583
+ 483819 words of memory out of 3000000
+ 30247 multiletter control sequences out of 15000+200000
+ 554517 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,85p,841b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,7n,85p,1284b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Роман\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
-arm1095.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\labx1440.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/p
-k/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Роман\AppData\Local\MiKTe
-X\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Роман\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk>
-Output written on Report.pdf (4 pages, 131827 bytes).
+abx1200.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\larm1095.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Роман\AppData\Local\MiKTeX\fonts/p
+k/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Роман\AppData\Local\MiKTe
+X\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Роман\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Роман\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report.pdf (11 pages, 364806 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

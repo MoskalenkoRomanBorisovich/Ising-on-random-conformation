@@ -17,7 +17,7 @@
 
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks=true,
+    colorlinks=false,
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
@@ -40,23 +40,28 @@
 \usepackage{subcaption}
 \captionsetup{labelsep=period} %. вместо : в рис
 
-\title{Научный отчёт по проекту Решеточные модели макромолекул}
+%\title{Научный отчёт по проекту Решеточные модели макромолекул}
+\title{Информация о замерах}
 \author{Москаленко Роман}
-\date{}
+\date{24.05.2021}
 
 \begin{document}
 
 \maketitle
 
-\section{Цель проекта}
+%\input{Sections/Introduction}
 
-Разработка программного комплекса моделирования модели Изинга на ансамблях случайных графов  для последующего исследования их термодинамических характеристик.
+\input{Sections/General}
 
+\input{Sections/Code}
 
-\include{Sections/Code}
+%\input{Sections/Low_temperature}
 
-\include{Sections/Results}
+\include{Sections/Measurements}
 
-
+\begin{thebibliography}{9}
+\bibitem{github}
+ Ссылка на репозиторий: https://github.com/MoskalenkoRomanBorisovich/Ising-on-random-conformation 
+\end{thebibliography}
 
 \end{document}
