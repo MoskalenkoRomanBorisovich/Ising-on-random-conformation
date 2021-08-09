@@ -104,11 +104,16 @@ def main(argv):
     # L = len(struct)
     
     # therm = 300000 is usually enough for L <= 1000
-    ene, mag2, mag4, ene_arr = measure_structure(struct, 0, 1, 10,
-                                                        n_sweeps=10000000,
+    N = 10
+    b_max = 1
+    b_min = 0
+    
+    ene, mag2, mag4, ene_arr = measure_structure(struct, b_min, b_max, N,
+                                                        n_sweeps=2000000,
                                                         num_therm=500000)
+    betas = np.linspace(b_min+(b_max-b_min)/N, b_max, N)
     print('number of energy measurments: ', ene_arr.shape)
-    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_arr=ene_arr)
+    np.savez(outputfile, ene=ene, mag2=mag2, mag4=mag4, ene_arr=ene_arr, betas=betas)
     
 
 if __name__ == "__main__":
