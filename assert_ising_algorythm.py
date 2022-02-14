@@ -34,8 +34,7 @@ class Assert_claster_upd:
         neighbors = tabulate_neighbors(conf)
         ene = np.empty(self.nBetas, dtype=RealObservable)
         for i in range(self.nBetas):
-            ene[i], _, _, _ = cy_ising_cluster.simulate(L = L,
-                                                        neighbors = neighbors,
+            ene[i], _, _, _ = cy_ising_cluster.simulate(neighbors = neighbors,
                                                         beta = self.betas[i],
                                                         num_sweeps = n_sweeps,
                                                         num_therm = n_therm)
@@ -61,8 +60,7 @@ class Assert_claster_upd:
         
         for i in range(self.nProb):
             for j in range(self.nBetas):
-                ene[i, j], _, _, _ = cy_ising_cluster.simulate(L = L,
-                                                                              neighbors = neighbors,
+                ene[i, j], _, _, _ = cy_ising_cluster.simulate(neighbors = neighbors,
                                                                               beta = self.betas[j],
                                                                               num_sweeps = n_sweeps,
                                                                               num_therm = n_therm,
@@ -94,8 +92,7 @@ class Assert_claster_upd:
         ene_exact = np.empty(self.nBetas, dtype=float)
         
         for i in range(self.nBetas):
-            ene[i], _, _, _ = cy_ising_cluster.simulate(L = L,
-                                                        neighbors = neighbors,
+            ene[i], _, _, _ = cy_ising_cluster.simulate(neighbors = neighbors,
                                                         beta = self.betas[i],
                                                         num_sweeps = n_sweeps,
                                                         num_therm = n_therm)
@@ -118,9 +115,9 @@ class Assert_claster_upd:
 
 if __name__ == "__main__":
     cluster_assert = Assert_claster_upd()
-    cluster_assert.cmp_to_true_1D_values()
+    cluster_assert.cmp_to_true_1D_values(10, 1000, 1000)
     print('=======================================================================================')
-    cluster_assert.cmp_to_1_spin_upd(square_1D(10))
+    cluster_assert.cmp_to_1_spin_upd(square_1D(10), 1000, 1000)
     print('=======================================================================================')
-    cluster_assert.cmp_to_exact_solution(square_2D(3))
+    cluster_assert.cmp_to_exact_solution(square_2D(3), 1000, 1000)
     
