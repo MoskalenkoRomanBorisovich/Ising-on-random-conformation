@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mc_lib.observable import RealObservable
 from numba import njit
+import h5py
 
 def draw_conformation(struct, spins=None, bridges=None):
     if spins is not None and bridges is not None:
@@ -11,8 +12,8 @@ def draw_conformation(struct, spins=None, bridges=None):
         plt.scatter(struct[spins==1, 0], struct[spins==1, 1], color='red')
         plt.scatter(struct[spins==-1, 0], struct[spins==-1, 1], color='blue')
     elif bridges is not None:
-        plt.scatter(struct[bridges, 0], struct[bridges, 1], color='orange')
         plt.scatter(struct[np.logical_not(bridges), 0], struct[np.logical_not(bridges), 1], color='purple')
+        plt.scatter(struct[bridges, 0], struct[bridges, 1], color='orange')
     else:
         plt.scatter(struct[:, 0], struct[:, 1], color='green')
         
@@ -31,7 +32,7 @@ def read_conformation(fname):
     f.close()
     return np.array(struct_conf, dtype=int)
 
-@njit()
+@njit(cache=True)
 def tabulate_neighbors(struct): 
     neighb = np.zeros((struct.shape[0], 5), dtype=np.int32)
     for site in range(struct.shape[0]):
@@ -56,7 +57,7 @@ def tabulate_neighbors(struct):
                     
     return neighb
 
-@njit()
+@njit(cache=True)
 def radius_of_gyration(struct):
     x = 0
     y = 0
@@ -157,6 +158,16 @@ class Conformation():
         self.R = radius_of_gyration(self.struct)
         self.L = self.struct.shape[0]
         self.R_norm = R_to_norm(self.R, self.L)
+        
+#     TODO:
+#     def load_hdf5(self, fname):
+#         with h5py.File(fname, "r") as f:
+#             self.struct = f['structure'][()]
+#             self.ene = f['ene'][()]
+#             self.mag2 = f['mag2'][()]
+#             self.mag4 = f['mag4'][()]
+#             self.betas = f['betas'][()]
+#         self.nBetas = self.ene.shape[0]
         
 def load_Conformations_from_dir(dir_name, load_struct=True, load_data=True):
     if dir_name[-1] != '/' and dir_name[-1] != '\\':
