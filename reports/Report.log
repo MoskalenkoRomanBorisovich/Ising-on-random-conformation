@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  4 FEB 2022 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  15 FEB 2022 21:51
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -896,45 +896,63 @@ ne 29.
 File: images//../images/2Cluster_conformation.png Graphic file (type png)
 <use images//../images/2Cluster_conformation.png>
 Package pdftex.def Info: images//../images/2Cluster_conformation.png  used on i
-nput line 39.
+nput line 40.
 (pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
 <images//../images/3Cluster_conformation.png, id=118, 350.30875pt x 231.86626pt
 >
 File: images//../images/3Cluster_conformation.png Graphic file (type png)
 <use images//../images/3Cluster_conformation.png>
 Package pdftex.def Info: images//../images/3Cluster_conformation.png  used on i
-nput line 40.
+nput line 41.
 (pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./images//../images/mag2_to_R_L250.png>]
-<images//../images/Cumulant_big.png, id=128, 719.68875pt x 437.635pt>
+<images//../images/bridges_example_1.png, id=129, 350.30875pt x 231.86626pt>
+File: images//../images/bridges_example_1.png Graphic file (type png)
+<use images//../images/bridges_example_1.png>
+Package pdftex.def Info: images//../images/bridges_example_1.png  used on input
+ line 64.
+(pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
+<images//../images/bridges_example_2.png, id=130, 350.30875pt x 231.86626pt>
+File: images//../images/bridges_example_2.png Graphic file (type png)
+<use images//../images/bridges_example_2.png>
+Package pdftex.def Info: images//../images/bridges_example_2.png  used on input
+ line 65.
+(pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./images//../images/2Cluster_conformation.png> <./images//../images/3Cluste
+r_conformation.png>]
+<images//../images/Cumulant_big.png, id=145, 719.68875pt x 437.635pt>
 File: images//../images/Cumulant_big.png Graphic file (type png)
 <use images//../images/Cumulant_big.png>
 Package pdftex.def Info: images//../images/Cumulant_big.png  used on input line
- 57.
+ 82.
 (pdftex.def)             Requested size: 390.0pt x 237.16077pt.
-<images//../images/Cumulant_beta0.4_0.6.png, id=129, 433.62pt x 289.08pt>
+<images//../images/Cumulant_beta0.4_0.6.png, id=146, 433.62pt x 289.08pt>
 File: images//../images/Cumulant_beta0.4_0.6.png Graphic file (type png)
 <use images//../images/Cumulant_beta0.4_0.6.png>
 Package pdftex.def Info: images//../images/Cumulant_beta0.4_0.6.png  used on in
-put line 58.
+put line 83.
 (pdftex.def)             Requested size: 390.0pt x 260.01079pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [8 <./images//../images/2Cluster_conformation.png> <./images//../images/3Clus
-ter_conformation.png>] [9 <./images//../images/Cumulant_big.png> <./images//../
-images/Cumulant_beta0.4_0.6.png>]
+) [9 <./images//../images/bridges_example_1.png> <./images//../images/bridges_e
+xample_2.png>] [10 <./images//../images/Cumulant_big.png> <./images//../images/
+Cumulant_beta0.4_0.6.png>]
 Overfull \hbox (47.83418pt too wide) in paragraph at lines 64--65
 []\T2A/cmr/m/up/12 —сылка на ре-по-зи-то-рий: https://github.com/MoskalenkoRoma
 nBorisovich/Ising-
  []
 
-[10
+[11
 
 
 ] (Report.aux (Sections/Measurements.aux))
@@ -946,10 +964,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13591 strings out of 479799
- 201906 string characters out of 2879583
+ 13614 strings out of 479799
+ 202459 string characters out of 2879583
  483809 words of memory out of 3000000
- 30232 multiletter control sequences out of 15000+200000
+ 30242 multiletter control sequences out of 15000+200000
  554827 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,7n,85p,873b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -969,9 +987,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report.pdf (10 pages, 331070 bytes).
+Output written on Report.pdf (11 pages, 357421 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 468 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
