@@ -1,7 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=congen
-#SBATCH --output=congen-%a.slurm.log
-#SBATCH --array=0-49
+#SBATCH --job-name=confgen
+#SBATCH --output=/home/rbmoskalenko/saw-conformations_only/slurm_logs/confgen-%a.slurm.log
+#SBATCH --array=0-99
+
+cd parameters
 
 idx=$SLURM_ARRAY_TASK_ID
-./saw_cnf _conf_$idx
+for i in $(seq $(($idx * 100)) 1 $((($idx+1)*100-1))); do
+	../saw_cnf _conf_$i
+done

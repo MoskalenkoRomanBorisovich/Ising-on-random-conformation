@@ -2,12 +2,10 @@ import numpy as np
 
 fname = 'parameters/par_conf_'
 
-N = 1
-L_start = 500
-L_step = 250
-L = list(range(L_start, L_start + N*L_step, L_step))
+L = [1000]
+N = len(L)
 
-N_rep = 50
+N_rep = 10000
 L_size = [l*5 for l in L]
 U = np.linspace(1.0, 1.0, N)
 
@@ -36,7 +34,7 @@ for i in range(N * N_rep):
     for j in range(11):
         dest.write(origin.readline())
     
-    dest.write(str(1000 + i) + ' ' + str(1000 + i) + '\n')
+    dest.write(str(2000 + i) + ' ' + str(2000 + i) + '\n')
     
     origin.close()
     dest.close()
