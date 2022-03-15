@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from mc_lib.observable import RealObservable
+from mc_lib.observable import RealObservable, write_observable_hdf5, read_observable_hdf5
 from numba import njit
 import h5py
 
@@ -56,6 +56,7 @@ def tabulate_neighbors(struct):
                     neighb[site, neighb[site, 0]] = i
                     
     return neighb
+
 
 @njit(cache=True)
 def radius_of_gyration(struct):
@@ -123,6 +124,18 @@ def ising_1D_true_value(beta, L):
     th = np.tanh(beta)
     return  -th * (1 + th**(L-2)) / (1 + th**L)
 
+def read_observable_array_hdf5(group):
+    n = len(group.keys())
+    arr = np.empty(n, dtype=RealObservable)
+    for i in n:
+        arr[i] = read_observable_hdf5(group[f'ro_{i}'])
+    return arr
+
+def write_observable_array_hdf5(arr, group):
+    for i in range(arr.shape[0]):
+        g = group.create_group(f'ro_{i}')
+        write_observable_hdf5(arr[i], g)
+
 class Conformation():
     def __init__(self):
         self.struct = np.empty((0, 2), dtype=int)
@@ -159,16 +172,27 @@ class Conformation():
         self.L = self.struct.shape[0]
         self.R_norm = R_to_norm(self.R, self.L)
         
-#     TODO:
-#     def load_hdf5(self, fname):
-#         with h5py.File(fname, "r") as f:
-#             self.struct = f['structure'][()]
-#             self.ene = f['ene'][()]
-#             self.mag2 = f['mag2'][()]
-#             self.mag4 = f['mag4'][()]
-#             self.betas = f['betas'][()]
-#         self.nBetas = self.ene.shape[0]
+    def read_hdf5(self, fname):
+        with h5py.File(fname, "r") as f:
+            self.struct = f['structure'][()]
+            self.betas = f['betas'][()]
+            self.ene = read_observable_array_hdf5(f['ene'])
+            self.mag2 = read_observable_array_hdf5(f['mag2'])
+            self.mag4 = read_observable_array_hdf5(f['mag4'])
+        self.nBetas = self.ene.shape[0]
+    
+    def write_hdf5(self, fname):
+        with h5py.File(fname, "w") as f:
+            f.create_dataset('structure', data=self.struct)
+            f.create_dataset('betas', data=self.betas)
+            ene = f.create_group('ene')
+            write_observable_array_hdf5(self.ene, ene)
+            mag2 = f.create_group('mag2')
+            write_observable_array_hdf5(self.mag2, mag2)
+            mag4 = f.create_group('mag4')
+            write_observable_array_hdf5(self.mag4, mag4)
         
+
 def load_Conformations_from_dir(dir_name, load_struct=True, load_data=True):
     if dir_name[-1] != '/' and dir_name[-1] != '\\':
         dir_name += '/'
