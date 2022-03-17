@@ -127,7 +127,7 @@ def ising_1D_true_value(beta, L):
 def read_observable_array_hdf5(group):
     n = len(group.keys())
     arr = np.empty(n, dtype=RealObservable)
-    for i in n:
+    for i in range(n):
         arr[i] = read_observable_hdf5(group[f'ro_{i}'])
     return arr
 
@@ -164,7 +164,12 @@ class Conformation():
         try:
             self.betas = data['betas']
         except:
-            pass
+            self.betas = None
+
+        try:
+            self.mag_abs = data['mag_abs']
+        except:
+            self.mag_abs = None
     
     def load_struct(self, struct_f_name):
         self.struct = read_conformation(struct_f_name)
@@ -177,6 +182,7 @@ class Conformation():
             self.struct = f['structure'][()]
             self.betas = f['betas'][()]
             self.ene = read_observable_array_hdf5(f['ene'])
+            self.mag_abs = read_observable_array_hdf5(f['mag_abs'])
             self.mag2 = read_observable_array_hdf5(f['mag2'])
             self.mag4 = read_observable_array_hdf5(f['mag4'])
         self.nBetas = self.ene.shape[0]
@@ -187,6 +193,8 @@ class Conformation():
             f.create_dataset('betas', data=self.betas)
             ene = f.create_group('ene')
             write_observable_array_hdf5(self.ene, ene)
+            mag_abs = f.create_group('mag_abs')
+            write_observable_array_hdf5(self.mag_abs, mag_abs)
             mag2 = f.create_group('mag2')
             write_observable_array_hdf5(self.mag2, mag2)
             mag4 = f.create_group('mag4')
@@ -216,11 +224,17 @@ def load_Conformations_from_dir(dir_name, load_struct=True, load_data=True):
 
 def save_conformation(struct, fname):
     f = open(fname, 'w')
-    f.write('\n');
+    f.write('\n')
     for c in struct:
         f.write(str(c[0]) + ' ' + str(c[1]) + '\n')
         
     f.close()
+    
+def rewrite_datasets(dir_name, new_dir_name):
+    conformations = load_Conformations_from_dir(dir_name)
+
+    for i in range(len(conformations)):
+        conformations[i].write_hdf5(new_dir_name+f'conf_{i}.hdf5')
 
 if __name__ == "__main__":
     dir_name = 'Conformations/L250_beta0.1_1_10/'
