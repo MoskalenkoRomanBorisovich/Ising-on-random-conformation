@@ -83,6 +83,79 @@
 	\label{fig:clusters_and_bridges}
 \end{figure}
 
+\subsection{Статистика по кластерам и мостам}
+Ниже представлены гистограммы с размерами и числом кластеров и мостов в конформациях. Посчитано на 10000 конформациях с длинами 250, 500, 10000.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridge_lengths_L250.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridge_lengths_L500.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridge_lengths_L1000.png} 
+	\end{subfigure}
+	\caption{Распределение длин мостов.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridges_count_L250.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridges_count_L500.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/bridges_count_L1000.png} 
+	\end{subfigure}
+	\caption{Распределение числа мостов в конформации.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/clusters_count_L250.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/clusters_count_L500.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/clusters_count_L1000.png} 
+	\end{subfigure}
+	\caption{Распределение числа кластеров в конформации.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/cluster_sizes_L250.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/cluster_sizes_L500.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/cluster_sizes_L1000.png} 
+	\end{subfigure}
+	\caption{Распределение размера кластеров.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/max_cluster_size_L250.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/max_cluster_size_L500.png} 
+	\end{subfigure}
+	\begin{subfigure}[t]{0.3\textwidth} 
+		\includegraphics[width=\textwidth]{../images/max_cluster_size_L1000.png} 
+	\end{subfigure}
+	\caption{Распределение размера наибольшего кластера в конформации.}
+\end{figure}
+
 
 \subsection{Результаты разбиения на кластеры}
 Результаты анализа связи между намагниченностью и количеством и размерами кластеров и мостов подтверждают сказанное выше. У конформаций с большим числом кластеров обычно намагниченность ниже чем у конформаций с одним большим кластером. 
@@ -92,9 +165,37 @@
 \begin{figure}[h]
 	\centering
 	\caption{График размера наибольшего кластера и квадрата намагниченности для 10000 конформаций длины 1000}
-	\includegraphics[scale=1]{../images/mag_from_cluster_size.png} 
+	\includegraphics[width=0.8\textwidth]{../images/mag_from_cluster_size.png} 
 	\label{fig:mag_from_max_cluster}
 \end{figure}
+
+\paragraph{Сравнение разделения по кластерам и по радиусу}
+Чтобы оценить и сравнить эффективность разбиения конформаций при помощи размера наибольшего кластера и радиуса инерции воспользуемся следующим способом.
+
+\begin{enumerate}
+	\item Зададим значение намагниченности $\mu$, начиная с которого будем считать конформации намагниченными.
+	\item Из всех сгенерированных конформаций возьмём $n$ конформаций с наименьшими радисоми инерции, и $n$ конформаций с наибольшими размерами кластеров.
+	\item Среди выбранных конформаций посчитаем $k_{\mu, n}$ количество конформаций, намагниченность которых $< \mu$. Чем ниже это значение, тем лучше соответствующий способ разделения.
+	\item Повторяем предыдущие пункты для разных значений $\mu$ и $n$.
+\end{enumerate}
+
+Сравнивая полученные значения $k_{\mu, n}$ можем определить, какой из способов эффективнее. На рис.\ref{fig:kmun_example} видно как примерно ведут себя данные значения: до определённого n они равны 0, затем, дойдя до границы между магнитными и немагнитными конформациями, оно начинает расти, после чего рост становится линейным, так как все оставшиеся конформации не являются магнитными. 
+Лучше разницу между двумя способами видно на рис.\ref{fig:k_mu_n_all}, где при всех значениях $\mu$ и $n$ $k_{\mu, n}$ остаётся отрицательным. То есть разделения по радиусу инерции всегда оставляет больше немагнитных конформаций, чем разделение по размеру кластеров.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{../images/cluster_and_radius_mu0.8.png} 
+	\caption{График $k_{\mu, n}$ для разделения по кластерам и по радиусу, при $\mu = 0.8$.}
+	\label{fig:kmun_example}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../images/radius_and_cluster_comparising_L1000.png}
+	\label{fig:k_mu_n_all}
+	\caption{График разности: $k_{\mu, n}$ при кластерном разделении - $k_{\mu, n}$ при разделении по радиусам. На 10000 конформаций длины 1000. Каждая линия соответствует одному значению $\mu$.}
+\end{figure}
+
 
 
 
