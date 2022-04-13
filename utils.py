@@ -129,8 +129,8 @@ class Conformation():
         self.ene = np.empty(0, dtype=RealObservable)
         self.mag2 = np.empty(0, dtype=RealObservable)
         self.mag4 = np.empty(0, dtype=RealObservable)
-        self.U = np.zeros(0)
-        self.betas = np.zeros(0)
+        self.U = np.zeros(0, dtype=float)
+        self.betas = np.zeros(0, dtype=float)
         self.R = 0
         self.nBetas = 0
         
@@ -216,4 +216,171 @@ if __name__ == "__main__":
     print(struct)
     tbn = tabulate_neighbors(struct)
     print(tbn)
+    
+    
+# Bridges and clusters
+
+
+@njit()
+def find_1D_sigments_2(neighbors):
+    """
+    Marks vertexes witch have less then 3 neighbors
+    
+    Parameters
+    ----------
+    neihbors: np.array[:, :] int
+        list of neighbors of vertexes
+        
+    Returns
+    -------
+    bridges: np.array[:] bool
+        True - if number of neighbors < 3
+    """
+    bridges = np.zeros(neighbors.shape[0], np.bool_)
+    for i in range(neighbors.shape[0]):
+        if neighbors[i, 0] < 3:
+            bridges[i] = True
+    
+    return bridges
+
+
+@njit()
+def dfs_size_clusters_2(v, neighbors, used, bridges_spins, cb_id, cluster):
+    """
+    Calculates size of a cluster using dfs algorithm
+    
+    
+    Parameters
+    ----------
+    v: int
+        id of curent vertex
+        
+    neihbors: np.array[:, :] int
+        list of neighbors of vertexes
+        
+    used: np.array[:] bool
+        True if vertex has already been visited
+        
+    bridges_spins: np.array[:] bool
+        True - if vertex curently marked as bridge
+        
+    cb_id: np.array[:] int
+        Ids of clusters to which the vertices belong, here it will write new Id for visited vertexes
+        
+    cluster: int
+        Id of the curent cluster
+        
+    Return
+    ------
+    s: int
+        number of points in cluster
+    """
+    s = 1
+    cb_id[v] = cluster
+    used[v] = True
+    for i in range(1, neighbors[v, 0]+1):
+        to = neighbors[v, i]
+        if used[to] or bridges_spins[to]:
+            continue
+            
+        s += dfs_size_clusters_2(to, neighbors, used, bridges_spins, cb_id, cluster)
+        
+    return s
+
+    
+@njit()
+def clusters_and_bridges(neighbors):
+    """
+    Calculates number and size of clusters and bridges (1D sigments)
+    Bridge - set of onnected spins with 2 or less neighbors
+    Cluster - set of connected spins that are not in bridges
+    
+    bridges must connect different clusters
+    
+    Parameters
+    ----------
+    neighbors: np.array(L, :) int
+        list of neighbors
+        neighbors[i, 0] = number of neghbors
+        
+    Returns
+    -------
+    clusters: np.array(:) int
+        sizes of clusters
+        
+    bridges: np.array(:) int
+        sizes of bridges
+        
+    bridges_spins: np.array(L) bool
+        True if spin is in a bridge
+    """
+    bridges_spins = find_1D_sigments_2(neighbors)
+    
+    n = neighbors.shape[0]
+    
+    used = np.zeros(n, dtype=np.bool_)
+    
+    cluster_count = 0
+    bridges_count = 0
+    clusters = np.zeros(n, dtype=np.int32)
+    bridges = np.zeros(n, dtype=np.int32)
+    
+    cl_id = np.zeros(n, dtype=np.int32)
+    
+    bridge_len = 0
+    last_c = -1
+    for i in range(n):
+        if bridges_spins[i]:
+            used[i] = True
+            bridge_len += 1
+        else:
+            if used[i]:
+                if bridge_len > 0:
+                    if cl_id[i] == last_c: # bridge connects the same cluster
+                        for k in range(i-bridge_len, i):
+                            bridges_spins[k] = False
+                            cl_id[k] = cl_id[i]
+                        clusters[cluster_count-1] += bridge_len
+                    else:
+                        bridges[bridges_count] = bridge_len
+                        bridges_count += 1 
+            else:
+                if bridge_len > 0:
+                    bridges[bridges_count] = bridge_len
+                    bridges_count += 1
+
+                clusters[cluster_count] = dfs_size_clusters_2(i, neighbors, used, bridges_spins, cl_id, cluster_count)
+                cluster_count += 1
+                
+            last_c = cl_id[i]
+            bridge_len = 0
+    
+    if cluster_count > 0:
+        # add last bridge
+        if bridge_len > 0:
+            for i in range(1, bridge_len+1):
+                bridges_spins[-i] = False
+                cl_id[-i] = cluster_count-1
+            clusters[cluster_count-1] += bridge_len
+        
+        # add first bridge
+        i = 0
+        while bridges_spins[i]:
+            bridges_spins[i] = False
+            cl_id[i] = 0
+            clusters[0] += 1
+            i += 1
+        
+        if i > 0:
+            bridges_count -= 1
+            bridges = bridges[1:]
+    else:
+        if bridge_len > 0:
+            bridges[bridges_count] = bridge_len
+            bridges_count += 1
+    
+    clusters = clusters[:cluster_count]
+    bridges = bridges[:bridges_count]
+    
+    return clusters, bridges, bridges_spins
     
