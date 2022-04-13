@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  31 MAR 2022 04:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  12 APR 2022 22:11
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -922,94 +922,94 @@ Package pdftex.def Info: images//../images/bridges_example_1.png  used on input
 File: images//../images/bridge_lengths_L250.png Graphic file (type png)
 <use images//../images/bridge_lengths_L250.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L250.png  used on inp
-ut line 92.
+ut line 93.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
 <images//../images/bridge_lengths_L500.png, id=166, 407.5225pt x 279.0425pt>
 File: images//../images/bridge_lengths_L500.png Graphic file (type png)
 <use images//../images/bridge_lengths_L500.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L500.png  used on inp
-ut line 95.
+ut line 96.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
 <images//../images/bridge_lengths_L1000.png, id=167, 403.5075pt x 279.0425pt>
 File: images//../images/bridge_lengths_L1000.png Graphic file (type png)
 <use images//../images/bridge_lengths_L1000.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L1000.png  used on in
-put line 98.
+put line 99.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
 <images//../images/bridges_count_L250.png, id=168, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L250.png Graphic file (type png)
 <use images//../images/bridges_count_L250.png>
 Package pdftex.def Info: images//../images/bridges_count_L250.png  used on inpu
-t line 106.
+t line 107.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/bridges_count_L500.png, id=169, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L500.png Graphic file (type png)
 <use images//../images/bridges_count_L500.png>
 Package pdftex.def Info: images//../images/bridges_count_L500.png  used on inpu
-t line 109.
+t line 110.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/bridges_count_L1000.png, id=170, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L1000.png Graphic file (type png)
 <use images//../images/bridges_count_L1000.png>
 Package pdftex.def Info: images//../images/bridges_count_L1000.png  used on inp
-ut line 112.
+ut line 113.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/clusters_count_L250.png, id=171, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L250.png Graphic file (type png)
 <use images//../images/clusters_count_L250.png>
 Package pdftex.def Info: images//../images/clusters_count_L250.png  used on inp
-ut line 120.
+ut line 121.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/clusters_count_L500.png, id=172, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L500.png Graphic file (type png)
 <use images//../images/clusters_count_L500.png>
 Package pdftex.def Info: images//../images/clusters_count_L500.png  used on inp
-ut line 123.
+ut line 124.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/clusters_count_L1000.png, id=173, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L1000.png Graphic file (type png)
 <use images//../images/clusters_count_L1000.png>
 Package pdftex.def Info: images//../images/clusters_count_L1000.png  used on in
-put line 126.
+put line 127.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/cluster_sizes_L250.png, id=174, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L250.png Graphic file (type png)
 <use images//../images/cluster_sizes_L250.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L250.png  used on inpu
-t line 134.
+t line 135.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
 <images//../images/cluster_sizes_L500.png, id=175, 396.48125pt x 279.0425pt>
 File: images//../images/cluster_sizes_L500.png Graphic file (type png)
 <use images//../images/cluster_sizes_L500.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L500.png  used on inpu
-t line 137.
+t line 138.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/cluster_sizes_L1000.png, id=176, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L1000.png Graphic file (type png)
 <use images//../images/cluster_sizes_L1000.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L1000.png  used on inp
-ut line 140.
+ut line 141.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
 <images//../images/max_cluster_size_L250.png, id=177, 396.48125pt x 279.0425pt>
 
 File: images//../images/max_cluster_size_L250.png Graphic file (type png)
 <use images//../images/max_cluster_size_L250.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L250.png  used on i
-nput line 148.
+nput line 149.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/max_cluster_size_L500.png, id=178, 396.48125pt x 279.0425pt>
 
 File: images//../images/max_cluster_size_L500.png Graphic file (type png)
 <use images//../images/max_cluster_size_L500.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L500.png  used on i
-nput line 151.
+nput line 152.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
 <images//../images/max_cluster_size_L1000.png, id=179, 396.48125pt x 279.0425pt
 >
 File: images//../images/max_cluster_size_L1000.png Graphic file (type png)
 <use images//../images/max_cluster_size_L1000.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L1000.png  used on 
-input line 154.
+input line 155.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
  [10 <./images//../images/bridge_lengths_L250.png> <./images//../images/bridge_
 lengths_L500.png> <./images//../images/bridge_lengths_L1000.png> <./images//../
@@ -1023,33 +1023,36 @@ usters_count_L1000.png> <./images//../images/cluster_sizes_L250.png> <./images/
 File: images//../images/mag_from_cluster_size.png Graphic file (type png)
 <use images//../images/mag_from_cluster_size.png>
 Package pdftex.def Info: images//../images/mag_from_cluster_size.png  used on i
-nput line 168.
+nput line 169.
 (pdftex.def)             Requested size: 312.00119pt x 209.6118pt.
  [11 <./images//../images/max_cluster_size_L250.png> <./images//../images/max_c
 luster_size_L500.png> <./images//../images/max_cluster_size_L1000.png> <./image
 s//../images/mag_from_cluster_size.png>]
 
-Package caption Warning: \label without proper reference on input line 195.
+Package caption Warning: \label without proper reference on input line 196.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:k_mu_n_all' on page 12 undefined on input line 18
-3.
+LaTeX Warning: Reference `fig:kmun_dif' on page 12 undefined on input line 184.
+
 
 <images//../images/cluster_and_radius_mu0.8.png, id=214, 397.485pt x 279.0425pt
 >
 File: images//../images/cluster_and_radius_mu0.8.png Graphic file (type png)
 <use images//../images/cluster_and_radius_mu0.8.png>
 Package pdftex.def Info: images//../images/cluster_and_radius_mu0.8.png  used o
-n input line 187.
-(pdftex.def)             Requested size: 312.00119pt x 219.03606pt.
+n input line 188.
+(pdftex.def)             Requested size: 234.00238pt x 164.28024pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <images//../images/radius_and_cluster_comparising_L1000.png, id=215, 393.47pt x
  262.9825pt>
 File: images//../images/radius_and_cluster_comparising_L1000.png Graphic file (
 type png)
 <use images//../images/radius_and_cluster_comparising_L1000.png>
 Package pdftex.def Info: images//../images/radius_and_cluster_comparising_L1000
-.png  used on input line 194.
+.png  used on input line 195.
 (pdftex.def)             Requested size: 312.00119pt x 208.52835pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1058,13 +1061,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images//../images/Cumulant_big.png Graphic file (type png)
 <use images//../images/Cumulant_big.png>
 Package pdftex.def Info: images//../images/Cumulant_big.png  used on input line
- 213.
+ 214.
 (pdftex.def)             Requested size: 390.0pt x 237.16077pt.
 <images//../images/Cumulant_beta0.4_0.6.png, id=217, 433.62pt x 289.08pt>
 File: images//../images/Cumulant_beta0.4_0.6.png Graphic file (type png)
 <use images//../images/Cumulant_beta0.4_0.6.png>
 Package pdftex.def Info: images//../images/Cumulant_beta0.4_0.6.png  used on in
-put line 214.
+put line 215.
 (pdftex.def)             Requested size: 390.0pt x 260.01079pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1090,14 +1093,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  13747 strings out of 479799
- 207028 string characters out of 2879583
- 487603 words of memory out of 3000000
+ 207026 string characters out of 2879583
+ 487601 words of memory out of 3000000
  30333 multiletter control sequences out of 15000+200000
  554827 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1118,7 +1118,7 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report.pdf (15 pages, 512356 bytes).
+Output written on Report.pdf (15 pages, 512564 bytes).
 PDF statistics:
  579 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
