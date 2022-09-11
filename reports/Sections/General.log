@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  25 MAY 2021 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.27)  6 SEP 2022 01:40
 entering extended mode
 **./General.tex
 (General.tex
@@ -6,7 +6,7 @@ LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03>
 ! Undefined control sequence.
 l.1 \section
-            {Общая информация}
+            {Введение}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -14,80 +14,67 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! Package inputenc Error: Unicode character О (U+041E)
+! Package inputenc Error: Unicode character В (U+0412)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{О
-               бщая информация}
+l.1 \section{В
+               ведение}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character б (U+0431)
+! Package inputenc Error: Unicode character в (U+0432)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Об
-                 щая информация}
+l.1 \section{Вв
+                 едение}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character щ (U+0449)
+! Package inputenc Error: Unicode character е (U+0435)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Общ
-                   ая информация}
+l.1 \section{Вве
+                   дение}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character а (U+0430)
+! Package inputenc Error: Unicode character д (U+0434)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Обща
-                     я информация}
+l.1 \section{Введ
+                     ение}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character я (U+044F)
+! Package inputenc Error: Unicode character е (U+0435)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Общая
-                        информация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character и (U+0438)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая и
-                          нформация}
+l.1 \section{Введе
+                       ние}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -99,86 +86,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Общая ин
-                            формация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ф (U+0444)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая инф
-                              ормация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character о (U+043E)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая инфо
-                                рмация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character р (U+0440)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая инфор
-                                  мация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character м (U+043C)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая информ
-                                    ация}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character а (U+0430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая информа
-                                      ция}
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ц (U+0446)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Общая информац
-                                        ия}
+l.1 \section{Введен
+                         ие}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -190,34 +99,90 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Общая информаци
-                                          я}
+l.1 \section{Введени
+                           е}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character я (U+044F)
+! Package inputenc Error: Unicode character е (U+0435)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \section{Общая информация
-                                            }
+l.1 \section{Введение
+                             }
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character В (U+0412)
+! Package inputenc Error: Unicode character Р (U+0420)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 В
-      озьмём конформацию(связанную не само �...
+l.3 Р
+      ассмотрим конформацию(несамопересека...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 Ра
+        ссмотрим конформацию(несамопересека...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character с (U+0441)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 Рас
+          смотрим конформацию(несамопересека...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character с (U+0441)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 Расс
+            мотрим конформацию(несамопересека...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character м (U+043C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 Рассм
+              отрим конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -230,64 +195,50 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Во
-        зьмём конформацию(связанную не само �...
+l.3 Рассмо
+                трим конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character з (U+0437)
+! Package inputenc Error: Unicode character т (U+0442)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Воз
-          ьмём конформацию(связанную не само �...
+l.3 Рассмот
+                  рим конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character ь (U+044C)
+! Package inputenc Error: Unicode character р (U+0440)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возь
-            мём конформацию(связанную не само �...
+l.3 Рассмотр
+                    им конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character м (U+043C)
+! Package inputenc Error: Unicode character и (U+0438)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьм
-              ём конформацию(связанную не само �...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ё (U+0451)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Возьмё
-                м конформацию(связанную не само �...
+l.3 Рассмотри
+                      м конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -300,8 +251,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём
-                   конформацию(связанную не само �...
+l.3 Рассмотрим
+                         конформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -314,8 +265,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём к
-                     онформацию(связанную не само �...
+l.3 Рассмотрим к
+                           онформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -328,8 +279,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём ко
-                       нформацию(связанную не само �...
+l.3 Рассмотрим ко
+                             нформацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -342,8 +293,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём кон
-                         формацию(связанную не само �...
+l.3 Рассмотрим кон
+                               формацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -356,8 +307,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конф
-                           ормацию(связанную не само �...
+l.3 Рассмотрим конф
+                                 ормацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -370,8 +321,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конфо
-                             рмацию(связанную не само �...
+l.3 Рассмотрим конфо
+                                   рмацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -384,8 +335,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конфор
-                               мацию(связанную не само �...
+l.3 Рассмотрим конфор
+                                     мацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -398,8 +349,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформ
-                                 ацию(связанную не само �...
+l.3 Рассмотрим конформ
+                                       ацию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -412,8 +363,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформа
-                                   цию(связанную не само �...
+l.3 Рассмотрим конформа
+                                         цию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -426,8 +377,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформац
-                                     ию(связанную не само �...
+l.3 Рассмотрим конформац
+                                           ию(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -440,8 +391,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформаци
-                                       ю(связанную не само �...
+l.3 Рассмотрим конформаци
+                                             ю(несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -454,8 +405,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформацию
-                                         (связанную не само �...
+l.3 Рассмотрим конформацию
+                                               (несамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -467,84 +418,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 Возьмём конформацию(
-                                          связанную не само �...
+l.3 Рассмотрим конформацию(
+                                                несамопересека...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no ( in font nullfont!
 
-! Package inputenc Error: Unicode character с (U+0441)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Возьмём конформацию(с
-                                            вязанную не само �...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character в (U+0432)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Возьмём конформацию(св
-                                              язанную не само �...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character я (U+044F)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Возьмём конформацию(свя
-                                                занную не само �...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character з (U+0437)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Возьмём конформацию(связ
-                                                  анную не само �...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character а (U+0430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...�ьмём конформацию(связа
-                                                  нную не само п�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 ! Package inputenc Error: Unicode character н (U+043D)
 (inputenc)                not set up for use with LaTeX.
 
@@ -552,64 +433,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�мём конформацию(связан
-                                                  ную не само пе�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character н (U+043D)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...�ём конформацию(связанн
-                                                  ую не само пер�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character у (U+0443)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...�м конформацию(связанну
-                                                  ю не само пере�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ю (U+044E)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...� конформацию(связанную
-                                                   не само перес�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character н (U+043D)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...�онформацию(связанную н
-                                                  е само пересек...
+l.3 Рассмотрим конформацию(н
+                                                  есамопересека...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -622,8 +447,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�нформацию(связанную не
-                                                   само пересека...
+l.3 ...�смотрим конформацию(не
+                                                  самопересекаю...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -636,8 +461,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...формацию(связанную не с
-                                                  амо пересекаю�...
+l.3 ...�мотрим конформацию(нес
+                                                  амопересекающ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -650,8 +475,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...ормацию(связанную не са
-                                                  мо пересекающ�...
+l.3 ...�отрим конформацию(неса
+                                                  мопересекающу...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -664,8 +489,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...рмацию(связанную не сам
-                                                  о пересекающу�...
+l.3 ...�трим конформацию(несам
+                                                  опересекающую...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -678,8 +503,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...мацию(связанную не само
-                                                   пересекающую�...
+l.3 ...�рим конформацию(несамо
+                                                  пересекающуюс...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -692,7 +517,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�цию(связанную не само п
+l.3 ...�им конформацию(несамоп
                                                   ересекающуюся...
 
 You may provide a definition with
@@ -706,7 +531,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�ию(связанную не само пе
+l.3 ...�м конформацию(несамопе
                                                   ресекающуюся �...
 
 You may provide a definition with
@@ -720,7 +545,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�ю(связанную не само пер
+l.3 ...� конформацию(несамопер
                                                   есекающуюся п�...
 
 You may provide a definition with
@@ -734,7 +559,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�(связанную не само пере
+l.3 ...конформацию(несамопере
                                                   секающуюся по�...
 
 You may provide a definition with
@@ -748,7 +573,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...связанную не само перес
+l.3 ...онформацию(несамоперес
                                                   екающуюся пос�...
 
 You may provide a definition with
@@ -762,7 +587,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...вязанную не само пересе
+l.3 ...нформацию(несамопересе
                                                   кающуюся посл�...
 
 You may provide a definition with
@@ -776,7 +601,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...язанную не само пересек
+l.3 ...формацию(несамопересек
                                                   ающуюся после�...
 
 You may provide a definition with
@@ -790,7 +615,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...занную не само пересека
+l.3 ...ормацию(несамопересека
                                                   ющуюся послед�...
 
 You may provide a definition with
@@ -804,7 +629,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...анную не само пересекаю
+l.3 ...рмацию(несамопересекаю
                                                   щуюся последо�...
 
 You may provide a definition with
@@ -818,7 +643,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...нную не само пересекающ
+l.3 ...мацию(несамопересекающ
                                                   уюся последов�...
 
 You may provide a definition with
@@ -832,7 +657,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...ную не само пересекающу
+l.3 ...ацию(несамопересекающу
                                                   юся последова�...
 
 You may provide a definition with
@@ -846,7 +671,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...ую не само пересекающую
+l.3 ...цию(несамопересекающую
                                                   ся последоват�...
 
 You may provide a definition with
@@ -860,7 +685,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...ю не само пересекающуюс
+l.3 ...ию(несамопересекающуюс
                                                   я последовате�...
 
 You may provide a definition with
@@ -874,7 +699,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ... не само пересекающуюся
+l.3 ...ю(несамопересекающуюся
                                                    последовател�...
 
 You may provide a definition with
@@ -888,7 +713,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...е само пересекающуюся п
+l.3 ...несамопересекающуюся п
                                                   оследовательн...
 
 You may provide a definition with
@@ -902,7 +727,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ... само пересекающуюся по
+l.3 ...есамопересекающуюся по
                                                   следовательно...
 
 You may provide a definition with
@@ -916,7 +741,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�амо пересекающуюся пос
+l.3 ...самопересекающуюся пос
                                                   ледовательнос...
 
 You may provide a definition with
@@ -930,7 +755,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�мо пересекающуюся посл
+l.3 ...амопересекающуюся посл
                                                   едовательност...
 
 You may provide a definition with
@@ -944,7 +769,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�о пересекающуюся после
+l.3 ...мопересекающуюся после
                                                   довательность...
 
 You may provide a definition with
@@ -958,7 +783,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...� пересекающуюся послед
+l.3 ...опересекающуюся послед
                                                   овательность �...
 
 You may provide a definition with
@@ -1212,7 +1037,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...едовательность узлов) н
-                                                  а двумерной  и�...
+                                                  а двумерной ре...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1226,7 +1051,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...довательность узлов) на
-                                                   двумерной  ил�...
+                                                   двумерной реш...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1240,7 +1065,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�вательность узлов) на д
-                                                  вумерной  или �...
+                                                  вумерной решё�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1254,7 +1079,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�ательность узлов) на дв
-                                                  умерной  или т�...
+                                                  умерной решёт�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1268,7 +1093,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�тельность узлов) на дву
-                                                  мерной  или тр�...
+                                                  мерной решётк�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1282,7 +1107,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�ельность узлов) на двум
-                                                  ерной  или трё�...
+                                                  ерной решётке....
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1296,7 +1121,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�льность узлов) на двуме
-                                                  рной  или трёх�...
+                                                  рной решётке. �...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1310,7 +1135,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�ьность узлов) на двумер
-                                                  ной  или трёхм�...
+                                                  ной решётке. Т�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1324,7 +1149,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�ность узлов) на двумерн
-                                                  ой  или трёхме�...
+                                                  ой решётке. Та�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1338,7 +1163,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�ость узлов) на двумерно
-                                                  й  или трёхмер�...
+                                                  й решётке. Так�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1352,7 +1177,148 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 ...�сть узлов) на двумерной
-                                                    или трёхмерн�...
+                                                   решётке. Таки�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character р (U+0440)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ть узлов) на двумерной р
+                                                  ешётке. Такие �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ь узлов) на двумерной ре
+                                                  шётке. Такие к�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ш (U+0448)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... узлов) на двумерной реш
+                                                  ётке. Такие ко�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ё (U+0451)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�злов) на двумерной решё
+                                                  тке. Такие кон�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character т (U+0442)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�лов) на двумерной решёт
+                                                  ке. Такие конф�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character к (U+043A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ов) на двумерной решётк
+                                                  е. Такие конфо�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�в) на двумерной решётке
+                                                  . Такие конфор�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no . in font nullfont!
+
+! Package inputenc Error: Unicode character Т (U+0422)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... на двумерной решётке. Т
+                                                  акие конформа�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�а двумерной решётке. Та
+                                                  кие конформац�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character к (U+043A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...� двумерной решётке. Так
+                                                  ие конформаци�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1365,30 +1331,72 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...�ь узлов) на двумерной  и
-                                                  ли трёхмерной ...
+l.3 ...двумерной решётке. Таки
+                                                  е конформации ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character л (U+043B)
+! Package inputenc Error: Unicode character е (U+0435)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...� узлов) на двумерной  ил
-                                                  и трёхмерной р...
+l.3 ...вумерной решётке. Такие
+                                                   конформации м...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character к (U+043A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�мерной решётке. Такие к
+                                                  онформации мо�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ерной решётке. Такие ко
+                                                  нформации мож�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�рной решётке. Такие кон
+                                                  формации можн�...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 46 strings out of 479799
- 916 string characters out of 2879583
+ 47 strings out of 479799
+ 885 string characters out of 2879583
  264509 words of memory out of 3000000
- 17137 multiletter control sequences out of 15000+200000
+ 17138 multiletter control sequences out of 15000+200000
  535088 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 13i,0n,15p,663b,28s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 13i,0n,15p,825b,22s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
