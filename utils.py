@@ -549,6 +549,61 @@ def generate_cluster_conformation(W, H, N, L):
         
     return np.array(struct, dtype=int)
 
+
+def check_dataset(dataset, betas, err:float):
+    """
+    checks if dataset is correct
+    checks:
+    - number of files
+    - beta values
+    - real observables convergence
+
+    Parameters
+    ----------
+    directory : list
+        Conformations array
+    betas : numpy.array
+        expected beta values
+    err : float
+        observables error threshold value
+
+    Returns
+    -------
+    numpy.array
+        indexes of conformations with wrong values of beta
+    numpy.array
+        indexes of conformations with not converged magnetization
+    """
+    wrong_betas = [] # list of indexes 
+    wrong_mag = []
+    for i, c in enumerate(dataset):
+        if not np.array_equal(c.betas, betas):
+            wrong_betas.append(i)
+        
+        flg = False
+        for m in c.mag_abs:
+            if m.errorbar > err:
+                wrong_mag.append(i)
+                flg = True
+                break
+        if flg:
+            continue
+        for m in c.mag2:
+            if m.errorbar > err:
+                wrong_mag.append(i)
+                flg = True
+                break
+        if flg:
+            continue
+        for m in c.mag4:
+            if m.errorbar > err:
+                wrong_mag.append(i)
+                break
+    
+    wrong_betas = np.array(wrong_betas) 
+    wrong_mag = np.array(wrong_mag) 
+    return wrong_betas, wrong_mag
+            
 if __name__ == "__main__":
     dir_name = 'Conformations/L250_beta0.1_1_10/'
     conformations = load_Conformations_from_dir(dir_name)
