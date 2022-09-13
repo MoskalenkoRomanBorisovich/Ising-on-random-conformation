@@ -2,7 +2,7 @@ import numpy as np
 
 fname = 'parameters/par_conf_'
 
-L = [1000]
+L = [250]
 N = len(L)
 
 N_rep = 10000
@@ -22,19 +22,19 @@ for i in range(N * N_rep):
     dest = open(fname + str(i), 'w')
     for j in range(2):
         dest.write(origin.readline())
-        
+
     for j in range(2):
         origin.readline()
-    
+
     t = i // N_rep
     dest.write(str(L_size[t])+'\n')
     dest.write(str(L[t])+'\n')
-    dest.write(str(U[t])+'\n')
+    dest.write(str(U[t])+'d0\n')
     origin.readline()
     for j in range(11):
         dest.write(origin.readline())
-    
+
     dest.write(str(2000 + i) + ' ' + str(2000 + i) + '\n')
-    
+
     origin.close()
     dest.close()

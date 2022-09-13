@@ -1,4 +1,13 @@
 Conformations/*
 .ipynb_checkpoints/*
 __pycache__/*
+saw-conformations_only/parameters/*
+cy_ising.cpp
+cy_ising_cluster.cp38-win_amd64.pyd
+cy_ising_cluster.cpp
+build/*
+Testing_staff.ipynb
+cy_ising.cp38-win_amd64.pyd
+exact_ising.cp38-win_amd64.pyd
+exact_ising.cpp
 
