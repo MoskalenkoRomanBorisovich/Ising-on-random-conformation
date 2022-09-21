@@ -14,3 +14,4 @@ exact_ising.cpp
 cy_ising_cluster.cpython-38-x86_64-linux-gnu.so
 exact_ising.cpython-38-x86_64-linux-gnu.so
 cy_ising.cpython-38-x86_64-linux-gnu.so
+literature/*

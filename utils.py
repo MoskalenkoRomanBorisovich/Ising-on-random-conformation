@@ -136,6 +136,7 @@ def norm_to_R(N, L):
 
 
 def ising_1D_true_value(beta, L):
+    """ exact value of internal energy of 1D Ising model"""
     th = np.tanh(beta)
     return -th * (1 + th**(L-2)) / (1 + th**L)
 
@@ -549,6 +550,49 @@ def generate_cluster_conformation(W, H, N, L):
         
     return np.array(struct, dtype=int)
 
+
+def mag_sus1D(b: np.ndarray, N: int, J=1.0):
+    """_summary_
+
+    Parameters
+    ----------
+    b : np.array
+        beta array
+    N : int
+        number of spins
+    J : float, optional
+        magnetic interaction coefficient, by default 1.0
+
+    Returns
+    -------
+    np.array
+        magnetic susceptibility
+    """
+    e2 = np.exp(2*b*J)
+    e4 = e2 ** 2
+    X = b/2 * ((2*N*e2 - e4+1) + np.tanh(b*J)**(N-1) *(e4 - 2*e2 + 1))
+    return X
+
+def mag_sus1D_2(b: np.ndarray, N: int, J=1.0):
+    """_summary_
+
+    Parameters
+    ----------
+    b : np.array
+        beta array
+    N : int
+        number of spins
+    J : float, optional
+        magnetic interaction coefficient, by default 1.0
+
+    Returns
+    -------
+    np.array
+        magnetic susceptibility
+    """
+    tanJb = np.tanh(J*b)
+    X = b * (N*(1+2*tanJb/(1-tanJb)) - 2*tanJb*(1-tanJb**N)/(1-tanJb)**2)
+    return X
 
 def check_dataset(dataset, betas, err:float):
     """
