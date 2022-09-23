@@ -3,13 +3,14 @@ from IPython import get_ipython
 import warnings
 IPYTHON = get_ipython()
 
+matplotlib.rcParams['pgf.texsystem'] = 'pdflatex'
 
 # beta symbol for matplotlib
 BETA = r'$\beta$'
 """
 used to wrap matplotlib code to save figures as pgf
 
-Exaple:
+Example:
 
 with matplotlib_pgf():
     plt.plot([1, 2, 3], [4, 5, 6])
