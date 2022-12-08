@@ -12,6 +12,11 @@
 \usepackage{amsmath}
 \usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
 
+
+% matplotlib plots
+\usepackage{pgf}
+\usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+
 %% Номера формул
 %\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
 
@@ -59,6 +64,10 @@
 
 \include{Sections/Measurements}
 
+\include{Sections/Magnetic_succeptibility}
+
+\include{Sections/Low_temperature}
+
 \begin{thebibliography}{9}
 \bibitem{github}
  Ссылка на репозиторий:https://github.com/MoskalenkoRomanBorisovich/Ising-on-random-conformation 
@@ -73,6 +82,8 @@ Ernst Ising, Contribution to the Theory of Ferromagnetism, 1925
 \bibitem{binder_cumulant}
  K. Binder, Finite size scaling analysis of ising model block distribution functions. Zeitschrift für Physik B: Condensed Matter. 43 (2): 119–140, 1981
 
+ \bibitem{swendsen}
+ R. H. Swendsen, An introduction to statistical mechanics and thermodynamics
 \end{thebibliography}
 
 \end{document}

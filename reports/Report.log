@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  21 NOV 2022 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  8 DEC 2022 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -372,7 +372,178 @@ LaTeX Info: Redefining \] on input line 2939.
 \xmathstrut@dim=\dimen158
 ) (/usr/share/texlive/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count277
+\c@pgf@countb=\count278
+\c@pgf@countc=\count279
+\c@pgf@countd=\count280
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count281
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count282
+\pgfsyssoftpath@bigbuffer@items=\count283
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count284
+\pgfmath@box=\box54
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count286
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen192
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen196
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count287
+\pgf@shadingcount=\count288
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box58
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+   defining Unicode char U+2212 (decimal 8722)
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -401,9 +572,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen159
-\Hy@linkcounter=\count277
-\Hy@pagecounter=\count278
+\@linkdim=\dimen256
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -416,7 +587,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count279
+\Hy@SavedSpaceFactor=\count291
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -431,21 +602,21 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count280
+\c@Hy@tempcnt=\count292
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen160
+\XeTeXLinkMargin=\dimen257
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count281
-\Field@Width=\dimen161
-\Fld@charsize=\dimen162
+\Fld@menulength=\count293
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -459,9 +630,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -470,8 +641,8 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count285
-\c@bookmark@seq@number=\count286
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -481,14 +652,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip59
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 24.
+Package hyperref Info: Option `colorlinks' set `false' on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
-\float@exts=\toks31
-\float@box=\box53
-\@float@everytoks=\toks32
-\@floatcapt=\box54
+\c@float@type=\count299
+\float@exts=\toks41
+\float@box=\box60
+\@float@everytoks=\toks42
+\@floatcapt=\box61
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/euscript.sty
 Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
@@ -496,79 +667,83 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 ) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup11
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen163
-\Gin@req@width=\dimen164
 ) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen165
-\WF@size=\dimen166
-\c@WF@wrappedlines=\count288
-\WF@box=\box55
-\WF@everypar=\toks33
+\wrapoverhang=\dimen260
+\WF@size=\dimen261
+\c@WF@wrappedlines=\count300
+\WF@box=\box62
+\WF@everypar=\toks43
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen167
-\captionmargin@=\dimen168
-\captionwidth=\dimen169
-\caption@tempdima=\dimen170
-\caption@indent=\dimen171
-\caption@parindent=\dimen172
-\caption@hangindent=\dimen173
+\captionmargin=\dimen262
+\captionmargin@=\dimen263
+\captionwidth=\dimen264
+\caption@tempdima=\dimen265
+\caption@indent=\dimen266
+\caption@parindent=\dimen267
+\caption@hangindent=\dimen268
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count289
-\c@continuedfloat=\count290
+\c@caption@flags=\count301
+\c@continuedfloat=\count302
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count291
-\c@subtable=\count292
+\c@subfigure=\count303
+\c@subtable=\count304
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box56
-) (./Report.aux (./Sections/Measurements.aux))
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box63
+) (./Report.aux (./Sections/Measurements.aux) (./Sections/Magnetic_succeptibility.aux) (./Sections/Low_temperature.aux))
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \th on input line 48.
-Package hyperref Info: Link coloring OFF on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Info: Redefining \th on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen269
+\scratchbox=\box64
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen270
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks45
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 53.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -576,99 +751,80 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
  (./Report.out) (./Report.out)
-\@outlinefile=\write3
-\openout3 = `Report.out'.
+\@outlinefile=\write4
+\openout4 = `Report.out'.
 
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen174
-\scratchbox=\box57
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen175
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks35
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 51.
+(Font)              using `T2A/cmr/m/n' instead on input line 56.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 51.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 51.
+(Font)              using `OML/cmr/m/it' instead on input line 56.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 51.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 51.
+(Font)              using `OMS/cmr/m/n' instead on input line 56.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
-LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 51.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 56.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 56.
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 51.
+(Font)              using `PD1/pdf/m/n' instead on input line 56.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 51.
-LaTeX Font Info:    No file PUcmr.fd. on input line 51.
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 56.
+LaTeX Font Info:    No file PUcmr.fd. on input line 56.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 51.
+(Font)              using `PU/pdf/m/n' instead on input line 56.
 
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 51.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) (./Sections/General.tex
-<images//../images/loose_conf.png, id=53, 350.30875pt x 231.86626pt>
+<images//../images/loose_conf.png, id=68, 350.30875pt x 231.86626pt>
 File: images//../images/loose_conf.png Graphic file (type png)
 <use images//../images/loose_conf.png>
 Package pdftex.def Info: images//../images/loose_conf.png  used on input line 7.
 (pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
-<images//../images/dense_conf.png, id=55, 350.30875pt x 231.86626pt>
+<images//../images/dense_conf.png, id=70, 350.30875pt x 231.86626pt>
 File: images//../images/dense_conf.png Graphic file (type png)
 <use images//../images/dense_conf.png>
 Package pdftex.def Info: images//../images/dense_conf.png  used on input line 8.
@@ -688,38 +844,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images//../images/loose_conf.png> <./images//../images/dense_conf.png>] [2]) (./Sections/Code.tex
-<images//../images/1spin_&_cluster_ene.png, id=88, 395.4775pt x 283.0575pt>
+<images//../images/1spin_&_cluster_ene.png, id=103, 395.4775pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_ene.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene.png  used on input line 13.
 (pdftex.def)             Requested size: 175.49881pt x 125.61249pt.
-<images//../images/1spin_&_cluster_ene_dif.png, id=89, 408.52625pt x 283.0575pt>
+<images//../images/1spin_&_cluster_ene_dif.png, id=104, 408.52625pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_ene_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene_dif.png  used on input line 14.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
-<images//../images/1spin_&_cluster_mag.png, id=90, 393.47pt x 283.0575pt>
+<images//../images/1spin_&_cluster_mag.png, id=105, 393.47pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_mag.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag.png  used on input line 15.
 (pdftex.def)             Requested size: 175.49881pt x 126.25172pt.
-<images//../images/1spin_&_cluster_mag_dif.png, id=91, 408.52625pt x 283.0575pt>
+<images//../images/1spin_&_cluster_mag_dif.png, id=106, 408.52625pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_mag_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag_dif.png  used on input line 16.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
  [3]
-<images//../images/1D_conf.png, id=96, 350.30875pt x 231.86626pt>
+<images//../images/1D_conf.png, id=111, 350.30875pt x 231.86626pt>
 File: images//../images/1D_conf.png Graphic file (type png)
 <use images//../images/1D_conf.png>
 Package pdftex.def Info: images//../images/1D_conf.png  used on input line 26.
 (pdftex.def)             Requested size: 272.99881pt x 180.70634pt.
-<images//../images/1D_ene.png, id=97, 395.4775pt x 266.9975pt>
+<images//../images/1D_ene.png, id=112, 395.4775pt x 266.9975pt>
 File: images//../images/1D_ene.png Graphic file (type png)
 <use images//../images/1D_ene.png>
 Package pdftex.def Info: images//../images/1D_ene.png  used on input line 29.
 (pdftex.def)             Requested size: 272.99881pt x 184.30994pt.
-<images//../images/1D_ene_diff.png, id=98, 421.575pt x 270.00874pt>
+<images//../images/1D_ene_diff.png, id=113, 421.575pt x 270.00874pt>
 File: images//../images/1D_ene_diff.png Graphic file (type png)
 <use images//../images/1D_ene_diff.png>
 Package pdftex.def Info: images//../images/1D_ene_diff.png  used on input line 30.
@@ -745,22 +901,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<images//../images/dense_cumulant.png, id=122, 387.4475pt x 283.0575pt>
+<images//../images/dense_cumulant.png, id=137, 387.4475pt x 283.0575pt>
 File: images//../images/dense_cumulant.png Graphic file (type png)
 <use images//../images/dense_cumulant.png>
 Package pdftex.def Info: images//../images/dense_cumulant.png  used on input line 10.
 (pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
-<images//../images/dense_magnetization.png, id=123, 392.46625pt x 287.0725pt>
+<images//../images/dense_magnetization.png, id=138, 392.46625pt x 287.0725pt>
 File: images//../images/dense_magnetization.png Graphic file (type png)
 <use images//../images/dense_magnetization.png>
 Package pdftex.def Info: images//../images/dense_magnetization.png  used on input line 11.
 (pdftex.def)             Requested size: 187.19833pt x 136.9303pt.
-<images//../images/loose_cumulant.png, id=124, 387.4475pt x 283.0575pt>
+<images//../images/loose_cumulant.png, id=139, 387.4475pt x 283.0575pt>
 File: images//../images/loose_cumulant.png Graphic file (type png)
 <use images//../images/loose_cumulant.png>
 Package pdftex.def Info: images//../images/loose_cumulant.png  used on input line 15.
 (pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
-<images//../images/loose_magnetization.png, id=125, 392.46625pt x 287.0725pt>
+<images//../images/loose_magnetization.png, id=140, 392.46625pt x 287.0725pt>
 File: images//../images/loose_magnetization.png Graphic file (type png)
 <use images//../images/loose_magnetization.png>
 Package pdftex.def Info: images//../images/loose_magnetization.png  used on input line 16.
@@ -768,17 +924,17 @@ Package pdftex.def Info: images//../images/loose_magnetization.png  used on inpu
 [7
 
  <./images//../images/dense_cumulant.png> <./images//../images/dense_magnetization.png> <./images//../images/loose_cumulant.png> <./images//../images/loose_magnetization.png>]
-<images//../images/mag2_to_R_L250.png, id=137, 390.45876pt x 262.9825pt>
+<images//../images/mag2_to_R_L250.png, id=152, 390.45876pt x 262.9825pt>
 File: images//../images/mag2_to_R_L250.png Graphic file (type png)
 <use images//../images/mag2_to_R_L250.png>
 Package pdftex.def Info: images//../images/mag2_to_R_L250.png  used on input line 29.
 (pdftex.def)             Requested size: 390.0pt x 262.68489pt.
-<images//../images/2Cluster_conformation.png, id=139, 350.30875pt x 231.86626pt>
+<images//../images/2Cluster_conformation.png, id=154, 350.30875pt x 231.86626pt>
 File: images//../images/2Cluster_conformation.png Graphic file (type png)
 <use images//../images/2Cluster_conformation.png>
 Package pdftex.def Info: images//../images/2Cluster_conformation.png  used on input line 40.
 (pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
-<images//../images/3Cluster_conformation.png, id=140, 350.30875pt x 231.86626pt>
+<images//../images/3Cluster_conformation.png, id=155, 350.30875pt x 231.86626pt>
 File: images//../images/3Cluster_conformation.png Graphic file (type png)
 <use images//../images/3Cluster_conformation.png>
 Package pdftex.def Info: images//../images/3Cluster_conformation.png  used on input line 41.
@@ -788,121 +944,115 @@ Package pdftex.def Info: images//../images/3Cluster_conformation.png  used on in
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./images//../images/mag2_to_R_L250.png>]
-<images//../images/2Cluster_conformation_short_link.png, id=152, 350.30875pt x 231.86626pt>
+<images//../images/2Cluster_conformation_short_link.png, id=167, 350.30875pt x 231.86626pt>
 File: images//../images/2Cluster_conformation_short_link.png Graphic file (type png)
 <use images//../images/2Cluster_conformation_short_link.png>
 Package pdftex.def Info: images//../images/2Cluster_conformation_short_link.png  used on input line 53.
 (pdftex.def)             Requested size: 155.99762pt x 103.25621pt.
-<images//../images/mag2_from_bridge_length_in_two_clusters.png, id=153, 392.46625pt x 262.9825pt>
+<images//../images/mag2_from_bridge_length_in_two_clusters.png, id=168, 392.46625pt x 262.9825pt>
 File: images//../images/mag2_from_bridge_length_in_two_clusters.png Graphic file (type png)
 <use images//../images/mag2_from_bridge_length_in_two_clusters.png>
 Package pdftex.def Info: images//../images/mag2_from_bridge_length_in_two_clusters.png  used on input line 57.
 (pdftex.def)             Requested size: 226.20071pt x 151.5749pt.
  [9 <./images//../images/2Cluster_conformation.png> <./images//../images/3Cluster_conformation.png> <./images//../images/2Cluster_conformation_short_link.png> <./images//../images/mag2_from_bridge_length_in_two_clusters.png>] [10]
-<images//../images/bridges_example_1.png, id=176, 350.30875pt x 231.86626pt>
+<images//../images/bridges_example_1.png, id=191, 350.30875pt x 231.86626pt>
 File: images//../images/bridges_example_1.png Graphic file (type png)
 <use images//../images/bridges_example_1.png>
 Package pdftex.def Info: images//../images/bridges_example_1.png  used on input line 100.
 (pdftex.def)             Requested size: 272.99881pt x 180.70634pt.
  [11 <./images//../images/bridges_example_1.png>]
-<images//../images/bridge_lengths_L250.png, id=189, 407.5225pt x 279.0425pt>
+<images//../images/bridge_lengths_L250.png, id=205, 407.5225pt x 279.0425pt>
 File: images//../images/bridge_lengths_L250.png Graphic file (type png)
 <use images//../images/bridge_lengths_L250.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L250.png  used on input line 112.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
-<images//../images/bridge_lengths_L500.png, id=190, 407.5225pt x 279.0425pt>
+<images//../images/bridge_lengths_L500.png, id=206, 407.5225pt x 279.0425pt>
 File: images//../images/bridge_lengths_L500.png Graphic file (type png)
 <use images//../images/bridge_lengths_L500.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L500.png  used on input line 115.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
-<images//../images/bridge_lengths_L1000.png, id=191, 403.5075pt x 279.0425pt>
+<images//../images/bridge_lengths_L1000.png, id=207, 403.5075pt x 279.0425pt>
 File: images//../images/bridge_lengths_L1000.png Graphic file (type png)
 <use images//../images/bridge_lengths_L1000.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L1000.png  used on input line 118.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/bridges_count_L250.png, id=192, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L250.png, id=208, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L250.png Graphic file (type png)
 <use images//../images/bridges_count_L250.png>
 Package pdftex.def Info: images//../images/bridges_count_L250.png  used on input line 126.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/bridges_count_L500.png, id=193, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L500.png, id=209, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L500.png Graphic file (type png)
 <use images//../images/bridges_count_L500.png>
 Package pdftex.def Info: images//../images/bridges_count_L500.png  used on input line 129.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/bridges_count_L1000.png, id=194, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L1000.png, id=210, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L1000.png Graphic file (type png)
 <use images//../images/bridges_count_L1000.png>
 Package pdftex.def Info: images//../images/bridges_count_L1000.png  used on input line 132.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L250.png, id=195, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L250.png, id=211, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L250.png Graphic file (type png)
 <use images//../images/clusters_count_L250.png>
 Package pdftex.def Info: images//../images/clusters_count_L250.png  used on input line 140.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L500.png, id=196, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L500.png, id=212, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L500.png Graphic file (type png)
 <use images//../images/clusters_count_L500.png>
 Package pdftex.def Info: images//../images/clusters_count_L500.png  used on input line 143.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L1000.png, id=197, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L1000.png, id=213, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L1000.png Graphic file (type png)
 <use images//../images/clusters_count_L1000.png>
 Package pdftex.def Info: images//../images/clusters_count_L1000.png  used on input line 146.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/cluster_sizes_L250.png, id=198, 403.5075pt x 279.0425pt>
+<images//../images/cluster_sizes_L250.png, id=214, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L250.png Graphic file (type png)
 <use images//../images/cluster_sizes_L250.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L250.png  used on input line 154.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/cluster_sizes_L500.png, id=199, 396.48125pt x 279.0425pt>
+<images//../images/cluster_sizes_L500.png, id=215, 396.48125pt x 279.0425pt>
 File: images//../images/cluster_sizes_L500.png Graphic file (type png)
 <use images//../images/cluster_sizes_L500.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L500.png  used on input line 157.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/cluster_sizes_L1000.png, id=200, 403.5075pt x 279.0425pt>
+<images//../images/cluster_sizes_L1000.png, id=216, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L1000.png Graphic file (type png)
 <use images//../images/cluster_sizes_L1000.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L1000.png  used on input line 160.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/max_cluster_size_L250.png, id=201, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L250.png, id=217, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L250.png Graphic file (type png)
 <use images//../images/max_cluster_size_L250.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L250.png  used on input line 168.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/max_cluster_size_L500.png, id=202, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L500.png, id=218, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L500.png Graphic file (type png)
 <use images//../images/max_cluster_size_L500.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L500.png  used on input line 171.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/max_cluster_size_L1000.png, id=203, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L1000.png, id=219, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L1000.png Graphic file (type png)
 <use images//../images/max_cluster_size_L1000.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L1000.png  used on input line 174.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
  [12 <./images//../images/bridge_lengths_L250.png> <./images//../images/bridge_lengths_L500.png> <./images//../images/bridge_lengths_L1000.png> <./images//../images/bridges_count_L250.png> <./images//../images/bridges_count_L500.png> <./images//../images/bridges_count_L1000.png> <./images//../images/clusters_count_L250.png> <./images//../images/clusters_count_L500.png> <./images//../images/clusters_count_L1000.png> <./images//../images/cluster_sizes_L250.png> <./images//../images/cluster_sizes_L500.png> <./images//../images/cluster_sizes_L1000.png>]
-<images//../images/mag_from_cluster_size.png, id=226, 391.4625pt x 262.9825pt>
+<images//../images/mag_from_cluster_size.png, id=241, 391.4625pt x 262.9825pt>
 File: images//../images/mag_from_cluster_size.png Graphic file (type png)
 <use images//../images/mag_from_cluster_size.png>
 Package pdftex.def Info: images//../images/mag_from_cluster_size.png  used on input line 188.
 (pdftex.def)             Requested size: 312.00119pt x 209.6118pt.
  [13 <./images//../images/max_cluster_size_L250.png> <./images//../images/max_cluster_size_L500.png> <./images//../images/max_cluster_size_L1000.png> <./images//../images/mag_from_cluster_size.png>]
-
-Package caption Warning: \label without proper reference on input line 215.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:kmun_dif' on page 14 undefined on input line 203.
-
-<images//../images/cluster_and_radius_mu0.8.png, id=240, 397.485pt x 279.0425pt>
+<images//../images/cluster_and_radius_mu0.8.png, id=255, 397.485pt x 279.0425pt>
 File: images//../images/cluster_and_radius_mu0.8.png Graphic file (type png)
 <use images//../images/cluster_and_radius_mu0.8.png>
 Package pdftex.def Info: images//../images/cluster_and_radius_mu0.8.png  used on input line 207.
 (pdftex.def)             Requested size: 234.00238pt x 164.28024pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images//../images/radius_and_cluster_comparising_L1000.png, id=241, 393.47pt x 262.9825pt>
+<images//../images/radius_and_cluster_comparising_L1000.png, id=256, 393.47pt x 262.9825pt>
 File: images//../images/radius_and_cluster_comparising_L1000.png Graphic file (type png)
 <use images//../images/radius_and_cluster_comparising_L1000.png>
 Package pdftex.def Info: images//../images/radius_and_cluster_comparising_L1000.png  used on input line 214.
@@ -910,7 +1060,7 @@ Package pdftex.def Info: images//../images/radius_and_cluster_comparising_L1000.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images//../images/Cumulant_raw_beta0.4_0.6.png, id=243, 389.455pt x 283.0575pt>
+<images//../images/Cumulant_raw_beta0.4_0.6.png, id=258, 389.455pt x 283.0575pt>
 File: images//../images/Cumulant_raw_beta0.4_0.6.png Graphic file (type png)
 <use images//../images/Cumulant_raw_beta0.4_0.6.png>
 Package pdftex.def Info: images//../images/Cumulant_raw_beta0.4_0.6.png  used on input line 230.
@@ -919,46 +1069,91 @@ Package pdftex.def Info: images//../images/Cumulant_raw_beta0.4_0.6.png  used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14]
-<images//../images/Cumulant_beta0.4_0.6.png, id=256, 433.62pt x 289.08pt>
-File: images//../images/Cumulant_beta0.4_0.6.png Graphic file (type png)
-<use images//../images/Cumulant_beta0.4_0.6.png>
-Package pdftex.def Info: images//../images/Cumulant_beta0.4_0.6.png  used on input line 244.
-(pdftex.def)             Requested size: 390.0pt x 260.01079pt.
+<images//clusters_cumulant_3pts_dist.png, id=271, 373.395pt x 264.99pt>
+File: images//clusters_cumulant_3pts_dist.png Graphic file (type png)
+<use images//clusters_cumulant_3pts_dist.png>
+Package pdftex.def Info: images//clusters_cumulant_3pts_dist.png  used on input line 244.
+(pdftex.def)             Requested size: 117.00119pt x 83.03156pt.
+<images//clusters_cumulant_4pts_thr=0.52.png, id=272, 373.395pt x 264.99pt>
+File: images//clusters_cumulant_4pts_thr=0.52.png Graphic file (type png)
+<use images//clusters_cumulant_4pts_thr=0.52.png>
+Package pdftex.def Info: images//clusters_cumulant_4pts_thr=0.52.png  used on input line 248.
+(pdftex.def)             Requested size: 117.00119pt x 83.03156pt.
+<images//clusters_cumulant_4pts_thr=0.74.png, id=273, 373.395pt x 264.99pt>
+File: images//clusters_cumulant_4pts_thr=0.74.png Graphic file (type png)
+<use images//clusters_cumulant_4pts_thr=0.74.png>
+Package pdftex.def Info: images//clusters_cumulant_4pts_thr=0.74.png  used on input line 252.
+(pdftex.def)             Requested size: 117.00119pt x 83.03156pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [15 <./images//../images/cluster_and_radius_mu0.8.png>] [16 <./images//../images/radius_and_cluster_comparising_L1000.png> <./images//../images/Cumulant_raw_beta0.4_0.6.png>] [17 <./images//../images/Cumulant_beta0.4_0.6.png>]
-Overfull \hbox (45.21979pt too wide) in paragraph at lines 64--65
+[15 <./images//../images/cluster_and_radius_mu0.8.png>]) [16 <./images//../images/radius_and_cluster_comparising_L1000.png> <./images//../images/Cumulant_raw_beta0.4_0.6.png>] [17 <./images//clusters_cumulant_3pts_dist.png> <./images//clusters_cumulant_4pts_thr=0.52.png> <./images//clusters_cumulant_4pts_thr=0.74.png>]
+\openout2 = `Sections/Magnetic_succeptibility.aux'.
+
+ (./Sections/Magnetic_succeptibility.tex
+Overfull \hbox (16.64966pt too wide) detected at line 25
+[] \OT1/cmr/m/n/12 = [] = \OML/cmm/m/it/12 ^^L []
+ []
+
+(./images/ms_peaks_all_far.pgf
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 1001.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1132.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1132.
+) (./images/mag2_no_peaks.pgf) [18
+
+
+
+] (./images/ms_peaks_close.pgf)) [19] [20]
+\openout2 = `Sections/Low_temperature.aux'.
+
+ (./Sections/Low_temperature.tex (./images/U=0.1_mean_mag2_with_U=1.pgf) (./images/U=0.1_fraction_of_conformations.pgf) [21
+
+
+
+])
+Overfull \hbox (0.75893pt too wide) in paragraph at lines 23--69
+\T2A/cmr/m/up/12 мак-си-маль-на€ до-сти-га-е-ма€ на-маг-ни-чен-ность умень-ша-ют-с€. „то под-твер-
+ []
+
+[22]
+Overfull \hbox (45.21979pt too wide) in paragraph at lines 73--74
 []\T2A/cmr/m/up/12 —сылка на репозиторий:https://github.com/MoskalenkoRomanBorisovich/Ising-
  []
 
-[18
+
+Underfull \hbox (badness 4120) in paragraph at lines 86--87
+[]\T2A/cmr/m/up/12 R. H. Swendsen, An introduction to statistical mechanics and
+ []
+
+[23
 
 
-] (./Report.aux (./Sections/Measurements.aux))
+] (./Report.aux (./Sections/Measurements.aux) (./Sections/Magnetic_succeptibility.aux) (./Sections/Low_temperature.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: CAE66FA5FB9724CC304B541DAB8EEEFF;2033.
+(rerunfilecheck)             Checksum: 555220F698DA72369B54BEB6B701A4E3;2803.
  ) 
 Here is how much of TeX's memory you used:
- 14570 strings out of 478287
- 240067 string characters out of 5849288
- 516082 words of memory out of 5000000
- 32354 multiletter control sequences out of 15000+600000
- 488998 words of font info for 81 fonts, out of 8000000 for 9000
+ 22688 strings out of 478287
+ 411617 string characters out of 5849288
+ 724882 words of memory out of 5000000
+ 40230 multiletter control sequences out of 15000+600000
+ 492548 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,76p,1328b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Report.pdf (18 pages, 557105 bytes).
+ 85i,8n,90p,1525b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Report.pdf (23 pages, 638511 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 350 words of extra memory for PDF output out of 10000 (max. 10000000)
 
