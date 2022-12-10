@@ -7,17 +7,18 @@ matplotlib.rcParams['pgf.texsystem'] = 'pdflatex'
 
 # beta symbol for matplotlib
 BETA = r'$\beta$'
-"""
-used to wrap matplotlib code to save figures as pgf
 
-Example:
-
-with matplotlib_pgf():
-    plt.plot([1, 2, 3], [4, 5, 6])
-    plt.grid(True)
-    plt.savefig('test_plot.pgf')
-"""
 class matplotlib_pgf:
+    """
+    used to wrap matplotlib code to save figures as pgf
+
+    Example:
+
+    with matplotlib_pgf():
+        plt.plot([1, 2, 3], [4, 5, 6])
+        plt.grid(True)
+        plt.savefig('test_plot.pgf')
+    """
     def __inti__(self):
         self.RCDEFAULT = None
         
@@ -44,12 +45,21 @@ class matplotlib_pgf:
             return False
 
 
-def save_fig(fig, fname):
+def save_fig(fig: matplotlib.figure.Figure, fname: str):
+    """saves figure as pgf and png
+
+    Parameters
+    ----------
+    fig : matplotlib.figure.Figure
+        figure to save
+    fname : str
+        filename to save as
+    """
     fig.savefig(f'{fname}.pgf', format='pgf', bbox_inches='tight')
     fig.savefig(f'{fname}.png', format='png', bbox_inches='tight')
 
 
-def set_size(width_pt, fraction=1, subplots=(1, 1)):
+def set_size(width_pt=345, fraction=1, subplots=(1, 1)):
     """Set figure dimensions to sit nicely in our document.
 
     Parameters

@@ -552,7 +552,10 @@ def generate_cluster_conformation(W, H, N, L):
 
 
 def mag_sus1D(b: np.ndarray, N: int, J=1.0):
-    """_summary_
+    """
+    Calculates magnetic susceptibility of 1D Ising model with open boundary
+    conditions.
+    Result is not scaled. Divide by N**2 to scale values.
 
     Parameters
     ----------
