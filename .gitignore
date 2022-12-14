@@ -2,16 +2,8 @@ Conformations/*
 .ipynb_checkpoints/*
 __pycache__/*
 saw-conformations_only/parameters/*
-cy_ising.cpp
-cy_ising_cluster.cp38-win_amd64.pyd
-cy_ising_cluster.cpp
 build/*
 Testing_staff.ipynb
-cy_ising.cp38-win_amd64.pyd
-exact_ising.cp38-win_amd64.pyd
-exact_ising.cpp
 .vscode/*
-cy_ising_cluster.cpython-38-x86_64-linux-gnu.so
-exact_ising.cpython-38-x86_64-linux-gnu.so
-cy_ising.cpython-38-x86_64-linux-gnu.so
+ising_builds/*
 literature/*
