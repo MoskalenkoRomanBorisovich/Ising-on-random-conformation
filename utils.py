@@ -42,7 +42,7 @@ def read_conformation(fname):
 
 @njit(cache=True)
 def tabulate_neighbors(struct):
-    neighb = np.zeros((struct.shape[0], 5), dtype=np.int32)
+    neighb = np.zeros((struct.shape[0], 5), dtype=np.int64)
     for site in range(struct.shape[0]):
         c = struct[site]
         C_arr = np.empty((4, 2), dtype=np.int32)

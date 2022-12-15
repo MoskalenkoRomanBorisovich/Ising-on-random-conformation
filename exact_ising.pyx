@@ -1,6 +1,7 @@
 #cython: language_level=3
 
 import numpy as np
+cimport numpy as np
 
 cimport cython
 from libc.math cimport exp, tanh
@@ -9,8 +10,8 @@ from libcpp cimport bool
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double energy(long[::1] spins, 
-                   long[:, ::1] neighbors,
+cdef double energy(np.ndarray[np.int64_t, ndim=1] spins, 
+                   np.ndarray[np.int64_t, ndim=1] neighbors,
                    double J=1.0):
     """Ising model energy of a spin state.
     """
@@ -29,7 +30,7 @@ cdef double energy(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double magnetization(long[::1] spins):
+cdef double magnetization(np.ndarray[np.int64_t, ndim=1] spins):
     cdef:
         double mag = 0.0
         Py_ssize_t site
@@ -41,7 +42,7 @@ cdef double magnetization(long[::1] spins):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef int next_spins(long[::1] spins):
+cdef int next_spins(np.ndarray[np.int64_t, ndim=1] spins):
     cdef:
         int coef = -1
         Py_ssize_t site
@@ -57,7 +58,7 @@ cdef int next_spins(long[::1] spins):
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def calculate(Py_ssize_t L,
-             long[:, ::1] neighbors,
+             np.ndarray[np.int64_t, ndim=1] neighbors,
              double beta,
              int verbose = 0):
     
@@ -78,7 +79,7 @@ def calculate(Py_ssize_t L,
 
     
     # initialize spins
-    cdef long[::1] spins =  np.ones(L, dtype=int)
+    cdef np.ndarray[np.int64_t, ndim=1] spins =  np.ones(L, dtype=int)
     
     while True:
         ene = energy(spins, neighbors)

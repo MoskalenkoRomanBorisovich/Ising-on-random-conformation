@@ -1,6 +1,7 @@
 #cython: language_level=3
 
-import numpy as np
+cimport numpy as np
+import nympy as np
 import copy
 from mc_lib.lattices import tabulate_neighbors
 
@@ -12,7 +13,7 @@ from libcpp cimport bool
 from mc_lib.rndm cimport RndmWrapper
 from mc_lib.observable cimport RealObservable
 
-cdef void init_spins(long[::1] spins,
+cdef void init_spins(np.ndarray[np.int32_t, ndim=1] spins,
                      RndmWrapper rndm):
     # initial configuration
     for j in range(spins.shape[0]):
@@ -21,8 +22,8 @@ cdef void init_spins(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double energy(long[::1] spins, 
-                   long[:, ::1] neighbors,
+cdef double energy(np.ndarray[np.int32_t, ndim=1] spins, 
+                   np.ndarray[np.int32_t, ndim=1] neighbors,
                    double J=1.0):
     """Ising model energy of a spin state.
     """
@@ -41,7 +42,7 @@ cdef double energy(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double magnetization(long[::1] spins):
+cdef double magnetization(np.ndarray[np.int32_t, ndim=1] spins):
     cdef:
         double mag = 0.0
         Py_ssize_t site
@@ -63,8 +64,8 @@ cdef void culc_ratios(double[::1] ratios,
 # A single metropolis update
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef void flip_spin(long[::1] spins, 
-                    const long[:, ::1] neighbors,
+cdef void flip_spin(np.ndarray[np.int32_t, ndim=1] spins, 
+                    np.ndarray[np.int32_t, ndim=1] neighbors,
                     double beta,
                     const double[::1] ratios,
                     RndmWrapper rndm):
@@ -93,8 +94,8 @@ cdef void flip_spin(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef void cluster_update(long[::1] spins,
-                         const long[:, ::1] neighbors,
+cdef void cluster_update(np.ndarray[np.int32_t, ndim=1] spins,
+                         np.ndarray[np.int32_t, ndim=1] neighbors,
                          double beta,
                          RndmWrapper rndm):
     cdef:
@@ -136,7 +137,7 @@ cdef void cluster_update(long[::1] spins,
 ##########################################################################3
 
 def simulate(Py_ssize_t L,
-             long[:, ::1] neighbors,
+             np.ndarray[np.int32_t, ndim=1] neighbors,
              double beta,
              Py_ssize_t num_sweeps,
              int num_therm = 100000,
@@ -184,7 +185,7 @@ def simulate(Py_ssize_t L,
     culc_ratios(ratios, beta)
     
     # initialize spins
-    cdef long[::1] spins =  np.empty(L, dtype=int)
+    cdef np.ndarray[np.int32_t, ndim=1] spins =  np.empty(L, dtype=int)
     init_spins(spins, rndm)
     print("Conformation size =", L)
     # print("initial config: ", np.asarray(spins))

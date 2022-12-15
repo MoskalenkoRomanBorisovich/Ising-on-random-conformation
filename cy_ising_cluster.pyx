@@ -1,6 +1,7 @@
 #cython: language_level=3
 
 import numpy as np
+cimport numpy as np
 import copy
 from mc_lib.lattices import tabulate_neighbors
 
@@ -14,13 +15,13 @@ from libcpp cimport bool
 from mc_lib.rndm cimport RndmWrapper
 from mc_lib.observable cimport RealObservable
 
-cdef long[::1] init_spins(int L,
+cdef np.ndarray[np.int64_t, ndim=1] init_spins(int L,
                      RndmWrapper rndm):
     ''' 
     initial configuration
     L: number of spins in configuration
     '''
-    cdef long[::1] spins =  np.empty(L, dtype=int)
+    cdef np.ndarray[np.int64_t, ndim=1] spins =  np.empty(L, dtype=int)
     for j in range(L):
         spins[j] = 1 if rndm.uniform() > 0.5 else -1
     
@@ -28,8 +29,8 @@ cdef long[::1] init_spins(int L,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double energy(long[::1] spins, 
-                   long[:, ::1] neighbors,
+cdef double energy(np.ndarray[np.int64_t, ndim=1] spins, 
+                   np.ndarray[np.int64_t, ndim=1] neighbors,
                    double J=1.0):
     """Ising model energy of a spin state.
     """
@@ -48,7 +49,7 @@ cdef double energy(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef double magnetization(long[::1] spins):
+cdef double magnetization(np.ndarray[np.int64_t, ndim=1] spins):
     cdef:
         double mag = 0.0
         Py_ssize_t site
@@ -73,8 +74,8 @@ cdef void tabulate_ratios(double[::1] ratios,
 # A single metropolis update
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef void flip_spin(long[::1] spins, 
-                    const long[:, ::1] neighbors,
+cdef void flip_spin(np.ndarray[np.int64_t, ndim=1] spins, 
+                    np.ndarray[np.int64_t, ndim=1] neighbors,
                     double beta,
                     const double[::1] ratios,
                     RndmWrapper rndm,
@@ -104,8 +105,8 @@ cdef void flip_spin(long[::1] spins,
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef void cluster_update(long[::1] spins,
-                         const long[:, ::1] neighbors,
+cdef void cluster_update(np.ndarray[np.int64_t, ndim=1] spins,
+                         np.ndarray[np.int64_t, ndim=1] neighbors,
                          double p,
                          RndmWrapper rndm):
     '''
@@ -152,7 +153,7 @@ cdef void cluster_update(long[::1] spins,
 
 ##########################################################################
 
-def simulate(long[:, ::1] neighbors,
+def simulate(np.ndarray[np.int64_t, ndim=1] neighbors,
              double beta,
              Py_ssize_t num_sweeps,
              int num_therm=100000,
@@ -231,7 +232,7 @@ def simulate(long[:, ::1] neighbors,
     tabulate_ratios(ratios, beta, nDim)
     
     # initialize spins
-    cdef long[::1] spins = init_spins(L, rndm)
+    cdef np.ndarray[np.int64_t, ndim=1] spins = init_spins(L, rndm)
 
     # thermalization
     for sweep in range(num_therm):
