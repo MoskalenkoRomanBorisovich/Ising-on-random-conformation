@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  10 DEC 2022 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  17 DEC 2022 19:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,12 +819,12 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) (./Sections/General.tex
-<images//../images/loose_conf.png, id=72, 350.30875pt x 231.86626pt>
+<images//../images/loose_conf.png, id=76, 350.30875pt x 231.86626pt>
 File: images//../images/loose_conf.png Graphic file (type png)
 <use images//../images/loose_conf.png>
 Package pdftex.def Info: images//../images/loose_conf.png  used on input line 7.
 (pdftex.def)             Requested size: 175.49881pt x 116.1628pt.
-<images//../images/dense_conf.png, id=74, 350.30875pt x 231.86626pt>
+<images//../images/dense_conf.png, id=78, 350.30875pt x 231.86626pt>
 File: images//../images/dense_conf.png Graphic file (type png)
 <use images//../images/dense_conf.png>
 Package pdftex.def Info: images//../images/dense_conf.png  used on input line 8.
@@ -844,38 +844,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images//../images/loose_conf.png> <./images//../images/dense_conf.png>] [2]) (./Sections/Code.tex
-<images//../images/1spin_&_cluster_ene.png, id=107, 395.4775pt x 283.0575pt>
+<images//../images/1spin_&_cluster_ene.png, id=111, 395.4775pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_ene.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene.png  used on input line 13.
 (pdftex.def)             Requested size: 175.49881pt x 125.61249pt.
-<images//../images/1spin_&_cluster_ene_dif.png, id=108, 408.52625pt x 283.0575pt>
+<images//../images/1spin_&_cluster_ene_dif.png, id=112, 408.52625pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_ene_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_ene_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_ene_dif.png  used on input line 14.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
-<images//../images/1spin_&_cluster_mag.png, id=109, 393.47pt x 283.0575pt>
+<images//../images/1spin_&_cluster_mag.png, id=113, 393.47pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_mag.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag.png  used on input line 15.
 (pdftex.def)             Requested size: 175.49881pt x 126.25172pt.
-<images//../images/1spin_&_cluster_mag_dif.png, id=110, 408.52625pt x 283.0575pt>
+<images//../images/1spin_&_cluster_mag_dif.png, id=114, 408.52625pt x 283.0575pt>
 File: images//../images/1spin_&_cluster_mag_dif.png Graphic file (type png)
 <use images//../images/1spin_&_cluster_mag_dif.png>
 Package pdftex.def Info: images//../images/1spin_&_cluster_mag_dif.png  used on input line 16.
 (pdftex.def)             Requested size: 175.49881pt x 121.60004pt.
  [3]
-<images//../images/1D_conf.png, id=115, 350.30875pt x 231.86626pt>
+<images//../images/1D_conf.png, id=119, 350.30875pt x 231.86626pt>
 File: images//../images/1D_conf.png Graphic file (type png)
 <use images//../images/1D_conf.png>
 Package pdftex.def Info: images//../images/1D_conf.png  used on input line 26.
 (pdftex.def)             Requested size: 272.99881pt x 180.70634pt.
-<images//../images/1D_ene.png, id=116, 395.4775pt x 266.9975pt>
+<images//../images/1D_ene.png, id=120, 395.4775pt x 266.9975pt>
 File: images//../images/1D_ene.png Graphic file (type png)
 <use images//../images/1D_ene.png>
 Package pdftex.def Info: images//../images/1D_ene.png  used on input line 29.
 (pdftex.def)             Requested size: 272.99881pt x 184.30994pt.
-<images//../images/1D_ene_diff.png, id=117, 421.575pt x 270.00874pt>
+<images//../images/1D_ene_diff.png, id=121, 421.575pt x 270.00874pt>
 File: images//../images/1D_ene_diff.png Graphic file (type png)
 <use images//../images/1D_ene_diff.png>
 Package pdftex.def Info: images//../images/1D_ene_diff.png  used on input line 30.
@@ -901,22 +901,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<images//../images/dense_cumulant.png, id=141, 387.4475pt x 283.0575pt>
+<images//../images/dense_cumulant.png, id=145, 387.4475pt x 283.0575pt>
 File: images//../images/dense_cumulant.png Graphic file (type png)
 <use images//../images/dense_cumulant.png>
 Package pdftex.def Info: images//../images/dense_cumulant.png  used on input line 10.
 (pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
-<images//../images/dense_magnetization.png, id=142, 392.46625pt x 287.0725pt>
+<images//../images/dense_magnetization.png, id=146, 392.46625pt x 287.0725pt>
 File: images//../images/dense_magnetization.png Graphic file (type png)
 <use images//../images/dense_magnetization.png>
 Package pdftex.def Info: images//../images/dense_magnetization.png  used on input line 11.
 (pdftex.def)             Requested size: 187.19833pt x 136.9303pt.
-<images//../images/loose_cumulant.png, id=143, 387.4475pt x 283.0575pt>
+<images//../images/loose_cumulant.png, id=147, 387.4475pt x 283.0575pt>
 File: images//../images/loose_cumulant.png Graphic file (type png)
 <use images//../images/loose_cumulant.png>
 Package pdftex.def Info: images//../images/loose_cumulant.png  used on input line 15.
 (pdftex.def)             Requested size: 187.19833pt x 136.76442pt.
-<images//../images/loose_magnetization.png, id=144, 392.46625pt x 287.0725pt>
+<images//../images/loose_magnetization.png, id=148, 392.46625pt x 287.0725pt>
 File: images//../images/loose_magnetization.png Graphic file (type png)
 <use images//../images/loose_magnetization.png>
 Package pdftex.def Info: images//../images/loose_magnetization.png  used on input line 16.
@@ -924,17 +924,17 @@ Package pdftex.def Info: images//../images/loose_magnetization.png  used on inpu
 [7
 
  <./images//../images/dense_cumulant.png> <./images//../images/dense_magnetization.png> <./images//../images/loose_cumulant.png> <./images//../images/loose_magnetization.png>]
-<images//../images/mag2_to_R_L250.png, id=156, 390.45876pt x 262.9825pt>
+<images//../images/mag2_to_R_L250.png, id=160, 390.45876pt x 262.9825pt>
 File: images//../images/mag2_to_R_L250.png Graphic file (type png)
 <use images//../images/mag2_to_R_L250.png>
 Package pdftex.def Info: images//../images/mag2_to_R_L250.png  used on input line 29.
 (pdftex.def)             Requested size: 390.0pt x 262.68489pt.
-<images//../images/2Cluster_conformation.png, id=158, 350.30875pt x 231.86626pt>
+<images//../images/2Cluster_conformation.png, id=162, 350.30875pt x 231.86626pt>
 File: images//../images/2Cluster_conformation.png Graphic file (type png)
 <use images//../images/2Cluster_conformation.png>
 Package pdftex.def Info: images//../images/2Cluster_conformation.png  used on input line 40.
 (pdftex.def)             Requested size: 183.30048pt x 121.32826pt.
-<images//../images/3Cluster_conformation.png, id=159, 350.30875pt x 231.86626pt>
+<images//../images/3Cluster_conformation.png, id=163, 350.30875pt x 231.86626pt>
 File: images//../images/3Cluster_conformation.png Graphic file (type png)
 <use images//../images/3Cluster_conformation.png>
 Package pdftex.def Info: images//../images/3Cluster_conformation.png  used on input line 41.
@@ -944,106 +944,106 @@ Package pdftex.def Info: images//../images/3Cluster_conformation.png  used on in
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./images//../images/mag2_to_R_L250.png>]
-<images//../images/2Cluster_conformation_short_link.png, id=171, 350.30875pt x 231.86626pt>
+<images//../images/2Cluster_conformation_short_link.png, id=175, 350.30875pt x 231.86626pt>
 File: images//../images/2Cluster_conformation_short_link.png Graphic file (type png)
 <use images//../images/2Cluster_conformation_short_link.png>
 Package pdftex.def Info: images//../images/2Cluster_conformation_short_link.png  used on input line 53.
 (pdftex.def)             Requested size: 155.99762pt x 103.25621pt.
-<images//../images/mag2_from_bridge_length_in_two_clusters.png, id=172, 392.46625pt x 262.9825pt>
+<images//../images/mag2_from_bridge_length_in_two_clusters.png, id=176, 392.46625pt x 262.9825pt>
 File: images//../images/mag2_from_bridge_length_in_two_clusters.png Graphic file (type png)
 <use images//../images/mag2_from_bridge_length_in_two_clusters.png>
 Package pdftex.def Info: images//../images/mag2_from_bridge_length_in_two_clusters.png  used on input line 57.
 (pdftex.def)             Requested size: 226.20071pt x 151.5749pt.
  [9 <./images//../images/2Cluster_conformation.png> <./images//../images/3Cluster_conformation.png> <./images//../images/2Cluster_conformation_short_link.png> <./images//../images/mag2_from_bridge_length_in_two_clusters.png>] [10]
-<images//../images/bridges_example_1.png, id=195, 350.30875pt x 231.86626pt>
+<images//../images/bridges_example_1.png, id=199, 350.30875pt x 231.86626pt>
 File: images//../images/bridges_example_1.png Graphic file (type png)
 <use images//../images/bridges_example_1.png>
 Package pdftex.def Info: images//../images/bridges_example_1.png  used on input line 100.
 (pdftex.def)             Requested size: 272.99881pt x 180.70634pt.
  [11 <./images//../images/bridges_example_1.png>]
-<images//../images/bridge_lengths_L250.png, id=209, 407.5225pt x 279.0425pt>
+<images//../images/bridge_lengths_L250.png, id=213, 407.5225pt x 279.0425pt>
 File: images//../images/bridge_lengths_L250.png Graphic file (type png)
 <use images//../images/bridge_lengths_L250.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L250.png  used on input line 112.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
-<images//../images/bridge_lengths_L500.png, id=210, 407.5225pt x 279.0425pt>
+<images//../images/bridge_lengths_L500.png, id=214, 407.5225pt x 279.0425pt>
 File: images//../images/bridge_lengths_L500.png Graphic file (type png)
 <use images//../images/bridge_lengths_L500.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L500.png  used on input line 115.
 (pdftex.def)             Requested size: 117.00119pt x 80.11125pt.
-<images//../images/bridge_lengths_L1000.png, id=211, 403.5075pt x 279.0425pt>
+<images//../images/bridge_lengths_L1000.png, id=215, 403.5075pt x 279.0425pt>
 File: images//../images/bridge_lengths_L1000.png Graphic file (type png)
 <use images//../images/bridge_lengths_L1000.png>
 Package pdftex.def Info: images//../images/bridge_lengths_L1000.png  used on input line 118.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/bridges_count_L250.png, id=212, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L250.png, id=216, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L250.png Graphic file (type png)
 <use images//../images/bridges_count_L250.png>
 Package pdftex.def Info: images//../images/bridges_count_L250.png  used on input line 126.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/bridges_count_L500.png, id=213, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L500.png, id=217, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L500.png Graphic file (type png)
 <use images//../images/bridges_count_L500.png>
 Package pdftex.def Info: images//../images/bridges_count_L500.png  used on input line 129.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/bridges_count_L1000.png, id=214, 396.48125pt x 279.0425pt>
+<images//../images/bridges_count_L1000.png, id=218, 396.48125pt x 279.0425pt>
 File: images//../images/bridges_count_L1000.png Graphic file (type png)
 <use images//../images/bridges_count_L1000.png>
 Package pdftex.def Info: images//../images/bridges_count_L1000.png  used on input line 132.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L250.png, id=215, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L250.png, id=219, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L250.png Graphic file (type png)
 <use images//../images/clusters_count_L250.png>
 Package pdftex.def Info: images//../images/clusters_count_L250.png  used on input line 140.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L500.png, id=216, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L500.png, id=220, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L500.png Graphic file (type png)
 <use images//../images/clusters_count_L500.png>
 Package pdftex.def Info: images//../images/clusters_count_L500.png  used on input line 143.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/clusters_count_L1000.png, id=217, 396.48125pt x 279.0425pt>
+<images//../images/clusters_count_L1000.png, id=221, 396.48125pt x 279.0425pt>
 File: images//../images/clusters_count_L1000.png Graphic file (type png)
 <use images//../images/clusters_count_L1000.png>
 Package pdftex.def Info: images//../images/clusters_count_L1000.png  used on input line 146.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/cluster_sizes_L250.png, id=218, 403.5075pt x 279.0425pt>
+<images//../images/cluster_sizes_L250.png, id=222, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L250.png Graphic file (type png)
 <use images//../images/cluster_sizes_L250.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L250.png  used on input line 154.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/cluster_sizes_L500.png, id=219, 396.48125pt x 279.0425pt>
+<images//../images/cluster_sizes_L500.png, id=223, 396.48125pt x 279.0425pt>
 File: images//../images/cluster_sizes_L500.png Graphic file (type png)
 <use images//../images/cluster_sizes_L500.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L500.png  used on input line 157.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/cluster_sizes_L1000.png, id=220, 403.5075pt x 279.0425pt>
+<images//../images/cluster_sizes_L1000.png, id=224, 403.5075pt x 279.0425pt>
 File: images//../images/cluster_sizes_L1000.png Graphic file (type png)
 <use images//../images/cluster_sizes_L1000.png>
 Package pdftex.def Info: images//../images/cluster_sizes_L1000.png  used on input line 160.
 (pdftex.def)             Requested size: 117.00119pt x 80.91173pt.
-<images//../images/max_cluster_size_L250.png, id=221, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L250.png, id=225, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L250.png Graphic file (type png)
 <use images//../images/max_cluster_size_L250.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L250.png  used on input line 168.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/max_cluster_size_L500.png, id=222, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L500.png, id=226, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L500.png Graphic file (type png)
 <use images//../images/max_cluster_size_L500.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L500.png  used on input line 171.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
-<images//../images/max_cluster_size_L1000.png, id=223, 396.48125pt x 279.0425pt>
+<images//../images/max_cluster_size_L1000.png, id=227, 396.48125pt x 279.0425pt>
 File: images//../images/max_cluster_size_L1000.png Graphic file (type png)
 <use images//../images/max_cluster_size_L1000.png>
 Package pdftex.def Info: images//../images/max_cluster_size_L1000.png  used on input line 174.
 (pdftex.def)             Requested size: 117.00119pt x 82.34236pt.
  [12 <./images//../images/bridge_lengths_L250.png> <./images//../images/bridge_lengths_L500.png> <./images//../images/bridge_lengths_L1000.png> <./images//../images/bridges_count_L250.png> <./images//../images/bridges_count_L500.png> <./images//../images/bridges_count_L1000.png> <./images//../images/clusters_count_L250.png> <./images//../images/clusters_count_L500.png> <./images//../images/clusters_count_L1000.png> <./images//../images/cluster_sizes_L250.png> <./images//../images/cluster_sizes_L500.png> <./images//../images/cluster_sizes_L1000.png>]
-<images//../images/mag_from_cluster_size.png, id=245, 391.4625pt x 262.9825pt>
+<images//../images/mag_from_cluster_size.png, id=249, 391.4625pt x 262.9825pt>
 File: images//../images/mag_from_cluster_size.png Graphic file (type png)
 <use images//../images/mag_from_cluster_size.png>
 Package pdftex.def Info: images//../images/mag_from_cluster_size.png  used on input line 188.
 (pdftex.def)             Requested size: 312.00119pt x 209.6118pt.
  [13 <./images//../images/max_cluster_size_L250.png> <./images//../images/max_cluster_size_L500.png> <./images//../images/max_cluster_size_L1000.png> <./images//../images/mag_from_cluster_size.png>]
-<images//../images/cluster_and_radius_mu0.8.png, id=259, 397.485pt x 279.0425pt>
+<images//../images/cluster_and_radius_mu0.8.png, id=263, 397.485pt x 279.0425pt>
 File: images//../images/cluster_and_radius_mu0.8.png Graphic file (type png)
 <use images//../images/cluster_and_radius_mu0.8.png>
 Package pdftex.def Info: images//../images/cluster_and_radius_mu0.8.png  used on input line 207.
@@ -1052,7 +1052,7 @@ Package pdftex.def Info: images//../images/cluster_and_radius_mu0.8.png  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images//../images/radius_and_cluster_comparising_L1000.png, id=260, 393.47pt x 262.9825pt>
+<images//../images/radius_and_cluster_comparising_L1000.png, id=264, 393.47pt x 262.9825pt>
 File: images//../images/radius_and_cluster_comparising_L1000.png Graphic file (type png)
 <use images//../images/radius_and_cluster_comparising_L1000.png>
 Package pdftex.def Info: images//../images/radius_and_cluster_comparising_L1000.png  used on input line 214.
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: images//../images/radius_and_cluster_comparising_L1000.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images//../images/Cumulant_raw_beta0.4_0.6.png, id=262, 389.455pt x 283.0575pt>
+<images//../images/Cumulant_raw_beta0.4_0.6.png, id=266, 389.455pt x 283.0575pt>
 File: images//../images/Cumulant_raw_beta0.4_0.6.png Graphic file (type png)
 <use images//../images/Cumulant_raw_beta0.4_0.6.png>
 Package pdftex.def Info: images//../images/Cumulant_raw_beta0.4_0.6.png  used on input line 230.
@@ -1069,17 +1069,17 @@ Package pdftex.def Info: images//../images/Cumulant_raw_beta0.4_0.6.png  used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14]
-<images//clusters_cumulant_3pts_dist.png, id=275, 373.395pt x 264.99pt>
+<images//clusters_cumulant_3pts_dist.png, id=279, 373.395pt x 264.99pt>
 File: images//clusters_cumulant_3pts_dist.png Graphic file (type png)
 <use images//clusters_cumulant_3pts_dist.png>
 Package pdftex.def Info: images//clusters_cumulant_3pts_dist.png  used on input line 244.
 (pdftex.def)             Requested size: 117.00119pt x 83.03156pt.
-<images//clusters_cumulant_4pts_thr=0.52.png, id=276, 373.395pt x 264.99pt>
+<images//clusters_cumulant_4pts_thr=0.52.png, id=280, 373.395pt x 264.99pt>
 File: images//clusters_cumulant_4pts_thr=0.52.png Graphic file (type png)
 <use images//clusters_cumulant_4pts_thr=0.52.png>
 Package pdftex.def Info: images//clusters_cumulant_4pts_thr=0.52.png  used on input line 248.
 (pdftex.def)             Requested size: 117.00119pt x 83.03156pt.
-<images//clusters_cumulant_4pts_thr=0.74.png, id=277, 373.395pt x 264.99pt>
+<images//clusters_cumulant_4pts_thr=0.74.png, id=281, 373.395pt x 264.99pt>
 File: images//clusters_cumulant_4pts_thr=0.74.png Graphic file (type png)
 <use images//clusters_cumulant_4pts_thr=0.74.png>
 Package pdftex.def Info: images//clusters_cumulant_4pts_thr=0.74.png  used on input line 252.
@@ -1097,22 +1097,27 @@ Overfull \hbox (16.64966pt too wide) detected at line 25
  []
 
 (./images/ms_peaks_all_far.pgf
-LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 1001.
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 1528.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1132.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1659.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1132.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1659.
 ) (./images/mag2_no_peaks.pgf) [18
 
 
 
-] (./images/ms_peaks_close.pgf)) [19] [20]
+] (./images/ms_peaks_close.pgf)
+Overfull \hbox (10.67801pt too wide) in paragraph at lines 67--67
+[]\T2A/cmr/bx/n/14.4 ћагнитна€ вос-при-им-чи-вость при раз-де-ле-ни-ие кон-
+ []
+
+[19] (./images/magnetic_susceptibility/close_peaks_separated_by_cluster_size_L2000.pgf)) [20] [21]
 \openout2 = `Sections/Low_temperature.aux'.
 
- (./Sections/Low_temperature.tex (./images/U=0.1_mean_mag2_with_U=1.pgf) (./images/U=0.1_fraction_of_conformations.pgf) [21
+ (./Sections/Low_temperature.tex (./images/U=0.1_mean_mag2_with_U=1.pgf) (./images/U=0.1_fraction_of_conformations.pgf) [22
 
 
 
@@ -1121,7 +1126,7 @@ Overfull \hbox (0.75893pt too wide) in paragraph at lines 23--24
 \T2A/cmr/m/up/12 мак-си-маль-на€ до-сти-га-е-ма€ на-маг-ни-чен-ность умень-ша-ют-с€. „то под-твер-
  []
 
-(./images/MS_1D_comparison.pgf) [22] (./images/U=0.1_MS_1D_diff_distrib.pgf) (./images/U=0.1_MS_peaks.pgf)) [23] [24]
+(./images/MS_1D_comparison.pgf) [23] (./images/U=0.1_MS_1D_diff_distrib.pgf) (./images/U=0.1_MS_peaks.pgf)) [24] [25]
 Overfull \hbox (45.21979pt too wide) in paragraph at lines 73--74
 []\T2A/cmr/m/up/12 —сылка на репозиторий:https://github.com/MoskalenkoRomanBorisovich/Ising-
  []
@@ -1131,7 +1136,7 @@ Underfull \hbox (badness 4120) in paragraph at lines 86--87
 []\T2A/cmr/m/up/12 R. H. Swendsen, An introduction to statistical mechanics and
  []
 
-[25
+[26
 
 
 ] (./Report.aux (./Sections/Measurements.aux) (./Sections/Magnetic_succeptibility.aux) (./Sections/Low_temperature.aux))
@@ -1139,21 +1144,21 @@ Underfull \hbox (badness 4120) in paragraph at lines 86--87
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 9C39D73EE3D9432DC3DEE748CC38C131;3061.
+(rerunfilecheck)             Checksum: E6845951B40120E7B14E8A406F33BDDB;3543.
  ) 
 Here is how much of TeX's memory you used:
- 22724 strings out of 478287
- 412393 string characters out of 5849288
- 725832 words of memory out of 5000000
- 40247 multiletter control sequences out of 15000+600000
+ 22735 strings out of 478287
+ 412876 string characters out of 5849288
+ 789519 words of memory out of 5000000
+ 40251 multiletter control sequences out of 15000+600000
  493356 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,8n,90p,1525b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,8n,90p,1554b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Report.pdf (25 pages, 691891 bytes).
+Output written on Report.pdf (26 pages, 703926 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
