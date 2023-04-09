@@ -5,10 +5,13 @@ from numba import njit
 import h5py
 
 
-def draw_conformation(struct, spins=None, bridges=None):
+def draw_conformation(struct, spins=None, bridges=None, draw_path=True):
     if spins is not None and bridges is not None:
         raise Exception('Cant draw spins and bridges at the same time')
-    plt.plot(struct[:, 0], struct[:, 1], '-g', color='gray')
+    
+    plt.figure()
+    if draw_path:
+        plt.plot(struct[:, 0], struct[:, 1], '-g', color='gray')
     if spins is not None:
         plt.scatter(struct[spins == 1, 0],
                     struct[spins == 1, 1],
@@ -551,6 +554,45 @@ def generate_cluster_conformation(W, H, N, L):
     return np.array(struct, dtype=int)
 
 
+def generate_clusters_simple(W, H, N, L, pos, make_bridges=True):
+    """
+    Generates clusterized graph structure, without requireing it being a conformation
+
+    if make bridges == True, clusters will not be connected 
+    Parameters
+    ----------
+    W : int
+        width of cluster
+    H : int
+        hight of cluster
+    N : int
+        Number of clusters
+    L : int
+        lengths of bridges
+    P : list[int]
+        positions of bridges (hights)
+    """
+    struct = []
+    # add clusters
+    offset = 0
+    for cl in range(N):
+        for i in range(W):
+            for j in range(H):
+                struct.append([offset+i, j])
+        
+        offset += W + L
+    
+    # add bridges
+    if make_bridges:
+        offset = W
+        for br in range(N-1):
+            for i in range(L):
+                struct.append([offset+i, pos[br]])
+            offset += W + L
+
+    return np.array(struct)
+
+
 def mag_sus1D(b: np.ndarray, N: int, J=1.0):
     """
     Calculates magnetic susceptibility of 1D Ising model with open boundary
@@ -597,7 +639,7 @@ def mag_sus1D_2(b: np.ndarray, N: int, J=1.0):
     X = b * (N*(1+2*tanJb/(1-tanJb)) - 2*tanJb*(1-tanJb**N)/(1-tanJb)**2)
     return X
 
-def check_dataset(dataset, betas, err:float):
+def check_dataset(dataset, betas, err:float, length=None):
     """
     checks if dataset is correct
     checks:
@@ -613,6 +655,8 @@ def check_dataset(dataset, betas, err:float):
         expected beta values
     err : float
         observables error threshold value
+    length : int(optional)
+        length of conformations
 
     Returns
     -------
@@ -623,33 +667,45 @@ def check_dataset(dataset, betas, err:float):
     """
     wrong_betas = [] # list of indexes 
     wrong_mag = []
+    max_mag_abs = 0
+    max_mag_2 = 0
+    max_mag_4 = 0
     for i, c in enumerate(dataset):
         if not np.array_equal(c.betas, betas):
             wrong_betas.append(i)
         
-        flg = False
+        if length is not None:
+            l = len(c.struct)
+            if length != l:
+                raise Exception(f'wong conformations length: expected {length}, got {l} in conformation #{i}')
+
         for m in c.mag_abs:
+            max_mag_abs = max(max_mag_abs, m.errorbar)
             if m.errorbar > err:
                 wrong_mag.append(i)
-                flg = True
                 break
-        if flg:
-            continue
         for m in c.mag2:
+            max_mag_2 = max(max_mag_2, m.errorbar)
             if m.errorbar > err:
                 wrong_mag.append(i)
-                flg = True
                 break
-        if flg:
-            continue
         for m in c.mag4:
+            max_mag_4 = max(max_mag_4, m.errorbar)
             if m.errorbar > err:
                 wrong_mag.append(i)
                 break
     
     wrong_betas = np.array(wrong_betas) 
-    wrong_mag = np.array(wrong_mag) 
-    return wrong_betas, wrong_mag
+    wrong_mag = np.array(wrong_mag)
+
+    ret = {
+        "wrong_betas": wrong_betas,
+        "wrong_mag": wrong_mag,
+        "max_abs_er": max_mag_abs,
+        "max_2_er": max_mag_2,
+        "max_4_er": max_mag_4
+    }
+    return ret
             
 if __name__ == "__main__":
     dir_name = 'Conformations/L250_beta0.1_1_10/'
