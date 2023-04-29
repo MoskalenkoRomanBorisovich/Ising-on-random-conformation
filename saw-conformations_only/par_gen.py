@@ -5,6 +5,26 @@ fname = 'parameters/par_conf_'
 L = [250]
 N = len(L)
 
+# dafault_params = {
+#     "dimensionality": 2,
+#     "lattice_size": 250,
+#     "L": 50,
+#     "U" : 1.0,
+#     "J": 1.0,
+#     "new_conf": 0, # 0 if new configuration, 1 if old one
+#     "new_stats": 0, # 0 if new statistics,    1 if old one
+#     "initial U": 0.0,
+#     "step_print": 5e5,
+#     "step_write": 1e7,
+#     "step for measuring": 1000,
+#     "move_prob": 0.4,
+#     "reconnect_prob": 0.2,
+#     "time_limit": 0.01,
+#     "seed_rng": '4836 2748'
+# }
+
+
+
 N_rep = 10000
 L_size = [l*5 for l in L]
 U = np.linspace(1.0, 1.0, N)
