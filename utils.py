@@ -261,7 +261,7 @@ def load_Conformations_from_dir(dir_name, load_struct=True, load_data=True):
     return ret_arr
 
 
-def load_Conformations_lite_from_dir(dir_name, load_struct=True, load_data=True):
+def load_Conformations_lite_from_dir(dir_name: str, load_struct=True, load_data=True, load_count=None):
     if dir_name[-1] != '/' and dir_name[-1] != '\\':
         dir_name += '/'
 
@@ -269,6 +269,10 @@ def load_Conformations_lite_from_dir(dir_name, load_struct=True, load_data=True)
     N_conf = int(num_file.readline())
     num_file.close()
 
+    if load_count is not None:
+        if N_conf < load_count:
+            raise Exception("number of conformations in directory is lower than requested ")
+        N_conf = load_count
     ret_arr = []
     data_f = dir_name + 'conf_data_'
     struct_f = dir_name + 'struct_conf_'
