@@ -1,0 +1,90 @@
+\documentclass[a4paper,14pt]{extarticle}
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в фомулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{amsmath}
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+
+% matplotlib plots
+\usepackage{pgf}
+\usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+
+%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\usepackage{float}
+
+\usepackage[left=30mm, top=20mm, right=15mm, bottom=20mm, nohead, nofoot]{geometry} % настройки полей документа
+
+%% Шрифты
+% \usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathptmx} % Красивый матшрифт
+
+%%% Работа с картинками
+\usepackage{graphicx}  % Для вставки рисунков
+\graphicspath{{images/}{images2/}}  % папки с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig} % Обтекание рисунков и таблиц текстом
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{labelsep=period} %. вместо : в рис
+
+\title{Отчёт по проекту Решеточные модели макромолекул}
+%\title{Информация о замерах}
+\author{Москаленко Р. Б.}
+\date{24.05.2021}
+
+\begin{document}
+
+\maketitle
+
+%\input{Sections/Introduction}
+
+\input{Sections/General}
+
+\input{Sections/Code}
+
+%\input{Sections/Low_temperature}
+
+\include{Sections/Measurements}
+
+\include{Sections/Magnetic_succeptibility}
+
+\include{Sections/Low_temperature}
+
+\begin{thebibliography}{9}
+\bibitem{github}
+ Ссылка на репозиторий:https://github.com/MoskalenkoRomanBorisovich/Ising-on-random-conformation 
+ 
+\bibitem{ising}
+Ernst Ising, Contribution to the Theory of Ferromagnetism, 1925
+
+
+\bibitem{wolf_algorithm}
+ U. Wolff, Collective Monte Carlo Updating for Spin Systems. Physical Review Letters. 62 (4): 361–364, 1989
+ 
+\bibitem{binder_cumulant}
+ K. Binder, Finite size scaling analysis of ising model block distribution functions. Zeitschrift für Physik B: Condensed Matter. 43 (2): 119–140, 1981
+
+ \bibitem{swendsen}
+ R. H. Swendsen, An introduction to statistical mechanics and thermodynamics
+\end{thebibliography}
+
+\end{document}
