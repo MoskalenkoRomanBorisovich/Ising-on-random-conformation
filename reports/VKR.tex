@@ -1,4 +1,4 @@
-\documentclass[a4paper,14pt]{extarticle}
+\documentclass[hidelinks, a4paper,14pt]{extarticle}
 
 %%% Работа с русским языком
 \usepackage{cmap}					% поиск в PDF
@@ -30,7 +30,9 @@
 
 \usepackage{float}
 
-\usepackage[left=30mm, top=20mm, right=15mm, bottom=20mm, nohead, nofoot]{geometry} % настройки полей документа
+\usepackage[left=20mm, top=20mm, right=10mm, bottom=20mm, nohead, nofoot]{geometry} % настройки полей документа
+\usepackage{setspace} % междустрочный интервал
+\onehalfspacing % полуторный интервал
 
 %% Шрифты
 % \usepackage{euscript}	 % Шрифт Евклид
@@ -55,6 +57,12 @@
 
 \maketitle
 
+\input{Sections/Annotation_ru}
+\input{Sections/Annotation_eng}
+
+\newpage
+\tableofcontents
+\newpage
 %\input{Sections/Introduction}
 
 \input{Sections/General}
@@ -63,11 +71,11 @@
 
 %\input{Sections/Low_temperature}
 
-\include{Sections/Measurements}
+\input{Sections/Measurements}
 
-\include{Sections/Magnetic_succeptibility}
+\input{Sections/Magnetic_succeptibility}
 
-\include{Sections/Low_temperature}
+\input{Sections/Low_temperature}
 
 \begin{thebibliography}{9}
 \bibitem{github}

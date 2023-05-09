@@ -485,15 +485,26 @@ def clusters_and_bridges(neighbors):
 
 def clusters_and_bridges_from_list(conformations):
     """
+
     Finds clusters and bridges for every conformation in list
+
+    Parameters
+    ----------
+    conformations : lsit
+        list of conformations
+
+    Returns
+    -------
+    clusters: list[list]
+        list of clusters of conformations
+    bridges: list
+        list of bridges of conformations
     """
     k = 0
     clusters = []
     bridges = []
     for conf in conformations:
         k += 1
-        if k % 1000 == 0:
-            print(k)
         neighbors = tabulate_neighbors(conf.struct)
         c, b, b_s = clusters_and_bridges(neighbors)
         clusters.append(c)
