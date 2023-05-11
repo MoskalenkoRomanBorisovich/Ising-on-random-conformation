@@ -1,6 +1,8 @@
 import matplotlib
 from IPython import get_ipython
 import warnings
+import copy
+import matplotlib.pyplot as plt
 IPYTHON = get_ipython()
 
 matplotlib.rcParams['pgf.texsystem'] = 'pdflatex'
@@ -55,10 +57,12 @@ def save_fig(fig: matplotlib.figure.Figure, fname: str):
     fname : str
         filename to save as
     """
+    fig = copy.deepcopy(fig)
     fig.suptitle("")
     for ax in fig.axes: ax.set_title("")
     fig.savefig(f'{fname}.pgf', format='pgf', bbox_inches='tight')
     fig.savefig(f'{fname}.png', format='png', bbox_inches='tight')
+    fig.clf()
 
 
 def set_size(width_pt=345, fraction=1, subplots=(1, 1)):

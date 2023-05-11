@@ -1,0 +1,64 @@
+\section{Изменение температуры конформаций}
+До этого мы рассматривали только конформации, строго находящиеся в одной из фаз, клубки либо глобулы, $U = 0.1$ и $U = 1.0$. Данный раздел будет посвящён конформациям близким к геометрической точке перехода. Мы рассмотрим, как магнитные свойства конформаций меняются при изменении температуры конформаций при их генерации. 
+
+Для рассмотрения мы взяли по 1000 конформаций с длинами 250, 500, 1000, 2000. Полученных при $U \in \left\{0.1, 0.2 \dots 0.9, 1.0\right\}$.
+
+Намагниченность и магнитная восприимчивость, представленные на рис. \ref{fig:temp_scaling_mag2} и рис. \ref{fig:temp_scaling_ms} соответственно, почти не меняются на  $U \in \left[0.1, 0.5\right]$
+
+\begin{figure}[ht]
+	\centering
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_mag2_L250.png}
+        \caption*{$L = 250$}
+    \end{subfigure} 
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_mag2_L500.png}
+        \caption*{$L = 500$}
+
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_mag2_L1000.png}
+        \caption*{$L = 1000$}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_mag2_L2000.png}
+        \caption*{$L = 2000$}
+    \end{subfigure}
+	\caption{Намагниченность конформаций полученных при разных температурах, цветом обозначено значение $U$ при генерации.}
+	\label{fig:temp_scaling_mag2}
+\end{figure}
+
+
+\begin{figure}[ht]
+	\centering
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_ms_L250.png}
+        \caption*{$L = 250$}
+    \end{subfigure} 
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_ms_L500.png}
+        \caption*{$L = 500$}
+
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_ms_L1000.png}
+        \caption*{$L = 1000$}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics*[width=\textwidth]{temp_scaling/temp_ms_L2000.png}
+        \caption*{$L = 2000$}
+    \end{subfigure}
+	\caption{Пики магнитной восприимчивости конформаций полученных при разных температурах, цветом обозначено значение $U$ при генерации. Ширина прямоугольников уменьшается при увеличении $U$, чтобы лучше различать значения}
+	\label{fig:temp_scaling_ms}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \resizebox{\textwidth}{!}{\input{images/temp_scaling/temp_mag2_U0.5.pgf}}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \resizebox{\textwidth}{!}{\input{images/temp_scaling/temp_mag2_U0.6.pgf}}
+    \end{subfigure}
+\end{figure}
