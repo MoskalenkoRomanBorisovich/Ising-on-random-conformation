@@ -29,7 +29,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{3.991305in}{2.569889in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{3.702812in}{2.392613in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -41,9 +41,9 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{3.991305in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{3.991305in}{2.569889in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{2.569889in}}%
+\pgfpathlineto{\pgfqpoint{3.702812in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{3.702812in}{2.392613in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{2.392613in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
@@ -1461,12 +1461,6 @@
 \pgfpathmoveto{\pgfqpoint{0.643077in}{2.285253in}}%
 \pgfpathlineto{\pgfqpoint{3.602812in}{2.285253in}}%
 \pgfusepath{stroke}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{textcolor}%
-\pgfsetfillcolor{textcolor}%
-\pgftext[x=2.122944in,y=2.368587in,,base]{\color{textcolor}\sffamily\fontsize{9.600000}{11.520000}\selectfont magnetic susceptibility peaks of 1000 conformations}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%

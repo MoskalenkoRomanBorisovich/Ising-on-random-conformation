@@ -29,7 +29,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.217998in}{2.115535in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.217998in}{1.930900in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -42,8 +42,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{5.217998in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{5.217998in}{2.115535in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{2.115535in}}%
+\pgfpathlineto{\pgfqpoint{5.217998in}{1.930900in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{1.930900in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
@@ -388,12 +388,6 @@
 \pgfpathmoveto{\pgfqpoint{0.678396in}{1.830900in}}%
 \pgfpathlineto{\pgfqpoint{2.696397in}{1.830900in}}%
 \pgfusepath{stroke}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{textcolor}%
-\pgfsetfillcolor{textcolor}%
-\pgftext[x=1.687396in,y=1.914233in,,base]{\color{textcolor}\sffamily\fontsize{9.600000}{11.520000}\selectfont original values}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -789,12 +783,6 @@
 \pgfpathmoveto{\pgfqpoint{3.099997in}{1.830900in}}%
 \pgfpathlineto{\pgfqpoint{5.117998in}{1.830900in}}%
 \pgfusepath{stroke}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{textcolor}%
-\pgfsetfillcolor{textcolor}%
-\pgftext[x=4.108997in,y=1.914233in,,base]{\color{textcolor}\sffamily\fontsize{9.600000}{11.520000}\selectfont scaled values}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%

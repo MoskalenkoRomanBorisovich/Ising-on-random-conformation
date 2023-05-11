@@ -1,20 +1,19 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Введение}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Модель}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Метод Монте-Карло}{5}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Алгоритмы}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Проверка алгоритмов}{6}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Замеры}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}$U = 1$}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Разделение конформаций}{9}{subsubsection.3.1.1}%
-\contentsline {paragraph}{Кластеризованные конформации}{9}{figure.caption.10}%
-\contentsline {paragraph}{Алгоритм разбиения на мосты и кластеры}{12}{section*.12}%
-\contentsline {subsection}{\numberline {3.2}Статистика по кластерам и мостам}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Результаты разбиения на кластеры}{15}{subsection.3.3}%
-\contentsline {paragraph}{Сравнение разделения по кластерам и по радиусу}{16}{section*.20}%
-\contentsline {subsection}{\numberline {3.4}Кумулянт и точка перехода}{17}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Магнитная восприимчивость}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Результаты замеров}{20}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Магнитная восприимчивость при разделениие конформаций}{22}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Конформации при низких температурах}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Магнитная восприимчивость}{25}{subsection.5.1}%
+\contentsline {section}{\numberline {2}Модель}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Метод Монте-Карло}{6}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Алгоритмы}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Проверка алгоритмов}{7}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Глобулярные конформации}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Разделение конформаций}{9}{subsection.4.1}%
+\contentsline {paragraph}{Кластеризованные конформации}{10}{figure.caption.10}%
+\contentsline {paragraph}{Алгоритм разбиения на мосты и кластеры}{13}{section*.13}%
+\contentsline {subsection}{\numberline {4.2}Статистика по кластерам и мостам}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Результаты разбиения на кластеры}{15}{subsection.4.3}%
+\contentsline {paragraph}{Сравнение разделения по кластерам и по радиусу}{16}{section*.21}%
+\contentsline {subsection}{\numberline {4.4}Кумулянт и точка перехода}{17}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Магнитная восприимчивость}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Результаты замеров}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Магнитная восприимчивость при разделениие конформаций}{22}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Конформации при низких температурах}{23}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Магнитная восприимчивость}{24}{subsection.6.1}%

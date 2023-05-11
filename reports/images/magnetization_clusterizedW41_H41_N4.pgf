@@ -25,7 +25,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{4.682655in}{3.070534in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{4.682655in}{2.919685in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -38,8 +38,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{4.682655in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{4.682655in}{3.070534in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{3.070534in}}%
+\pgfpathlineto{\pgfqpoint{4.682655in}{2.919685in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{2.919685in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
@@ -1407,12 +1407,6 @@
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
-\pgfsetstrokecolor{textcolor}%
-\pgfsetfillcolor{textcolor}%
-\pgftext[x=2.106012in,y=2.854793in,,base]{\color{textcolor}\sffamily\fontsize{12.000000}{14.400000}\selectfont Magnetization of clusterized conformations W41_H41_N4}%
-\end{pgfscope}%
-\begin{pgfscope}%
 \pgfsetbuttcap%
 \pgfsetmiterjoin%
 \definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
@@ -1444,7 +1438,7 @@
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgfsys@transformshift{3.990000in}{0.500534in}%
+\pgfsys@transformshift{3.990000in}{0.509685in}%
 \pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.260000in,height=2.270000in]{magnetization_clusterizedW41_H41_N4-img0.png}}%
 \end{pgfscope}%
 \begin{pgfscope}%

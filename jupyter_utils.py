@@ -55,6 +55,8 @@ def save_fig(fig: matplotlib.figure.Figure, fname: str):
     fname : str
         filename to save as
     """
+    fig.suptitle("")
+    for ax in fig.axes: ax.set_title("")
     fig.savefig(f'{fname}.pgf', format='pgf', bbox_inches='tight')
     fig.savefig(f'{fname}.png', format='png', bbox_inches='tight')
 

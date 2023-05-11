@@ -30,9 +30,15 @@
 
 \usepackage{float}
 
-\usepackage[left=20mm, top=20mm, right=10mm, bottom=20mm, nohead, nofoot]{geometry} % настройки полей документа
+\usepackage[left=20mm, top=20mm, right=10mm, bottom=20mm, nohead]{geometry} % настройки полей документа
 \usepackage{setspace} % междустрочный интервал
 \onehalfspacing % полуторный интервал
+
+
+% referenses
+\usepackage{cite}
+% \usepackage[style=numeric, sorting=ynt] {biblatex}
+
 
 %% Шрифты
 % \usepackage{euscript}	 % Шрифт Евклид
@@ -57,6 +63,7 @@
 
 \maketitle
 
+\newpage
 \input{Sections/Annotation_ru}
 \input{Sections/Annotation_eng}
 
@@ -65,11 +72,12 @@
 \newpage
 %\input{Sections/Introduction}
 
-\input{Sections/General}
+\input{Sections/Introduction_2.0}
+% \input{Sections/General}
+\input{Sections/Model}
 
 \input{Sections/Code}
 
-%\input{Sections/Low_temperature}
 
 \input{Sections/Measurements}
 
@@ -77,22 +85,9 @@
 
 \input{Sections/Low_temperature}
 
-\begin{thebibliography}{9}
-\bibitem{github}
- Ссылка на репозиторий:https://github.com/MoskalenkoRomanBorisovich/Ising-on-random-conformation 
- 
-\bibitem{ising}
-Ernst Ising, Contribution to the Theory of Ferromagnetism, 1925
-
-
-\bibitem{wolf_algorithm}
- U. Wolff, Collective Monte Carlo Updating for Spin Systems. Physical Review Letters. 62 (4): 361–364, 1989
- 
-\bibitem{binder_cumulant}
- K. Binder, Finite size scaling analysis of ising model block distribution functions. Zeitschrift für Physik B: Condensed Matter. 43 (2): 119–140, 1981
-
- \bibitem{swendsen}
- R. H. Swendsen, An introduction to statistical mechanics and thermodynamics
-\end{thebibliography}
+\newpage
+\nocite{*}
+\bibliography{bibliography}{}
+\bibliographystyle{IEEEtran}
 
 \end{document}
