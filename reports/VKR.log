@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  12 MAY 2023 02:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.21)  12 MAY 2023 03:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1315,14 +1315,12 @@ File: images//temp_scaling/temp_ms_L2000.png Graphic file (type png)
 <use images//temp_scaling/temp_ms_L2000.png>
 Package pdftex.def Info: images//temp_scaling/temp_ms_L2000.png  used on input line 48.
 (pdftex.def)             Requested size: 204.85672pt x 135.51253pt.
- (./images/temp_scaling/temp_mag2_U0.5.pgf) (./images/temp_scaling/temp_mag2_U0.6.pgf)) [29 <./images//temp_scaling/temp_mag2_L250.png> <./images//temp_scaling/temp_mag2_L500.png> <./images//temp_scaling/temp_mag2_L1000.png> <./images//temp_scaling/temp_mag2_L2000.png>] (./VKR.bbl [30 <./images//temp_scaling/temp_ms_L250.png> <./images//temp_scaling/temp_ms_L500.png> <./images//temp_scaling/temp_ms_L1000.png> <./images//temp_scaling/temp_ms_L2000.png>]
+) [29 <./images//temp_scaling/temp_mag2_L250.png> <./images//temp_scaling/temp_mag2_L500.png> <./images//temp_scaling/temp_mag2_L1000.png> <./images//temp_scaling/temp_mag2_L2000.png>] (./VKR.bbl
 
 LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 28.
 
-) [31
-
-] (./VKR.aux)
+) [30 <./images//temp_scaling/temp_ms_L250.png> <./images//temp_scaling/temp_ms_L500.png> <./images//temp_scaling/temp_ms_L1000.png> <./images//temp_scaling/temp_ms_L2000.png>] (./VKR.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1330,18 +1328,18 @@ Package rerunfilecheck Info: File `VKR.out' has not changed.
 (rerunfilecheck)             Checksum: BC7F094AC22D3061D0F43E610BDA5F0D;3778.
  ) 
 Here is how much of TeX's memory you used:
- 23694 strings out of 478287
- 431883 string characters out of 5849288
- 790329 words of memory out of 5000000
- 41066 multiletter control sequences out of 15000+600000
+ 23681 strings out of 478287
+ 431479 string characters out of 5849288
+ 790171 words of memory out of 5000000
+ 41062 multiletter control sequences out of 15000+600000
  542222 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,90p,2139b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,9n,90p,2139b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on VKR.pdf (31 pages, 886380 bytes).
+Output written on VKR.pdf (30 pages, 880262 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

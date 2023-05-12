@@ -3,8 +3,8 @@
 
 Для рассмотрения мы взяли по 1000 конформаций с длинами 250, 500, 1000, 2000. Полученных при $U \in \left\{0.1, 0.2 \dots 0.9, 1.0\right\}$.
 
-Намагниченность и магнитная восприимчивость, представленные на рис. \ref{fig:temp_scaling_mag2} и рис. \ref{fig:temp_scaling_ms} соответственно, почти не меняются на  $U \in \left[0.1, 0.5\right]$
-
+Намагниченность и магнитная восприимчивость, представленные на рис. \ref{fig:temp_scaling_mag2} и рис. \ref{fig:temp_scaling_ms} соответственно, почти не меняются на  $U \in \left[0.1, 0.5\right]$. Затем после $U=0.5$ начинает растя средняя намагниченности конформаций, а количество конформаций без пиков магнитной восприимчивости начинает падать.
+Можно заметить что пики магнитной восприимчивости не сразу оказываются около ожидаемой точки перехода $\beta \approx 0.5$ а постепенно смещаются в эту сторону из $\beta = 1.0$
 \begin{figure}[ht]
 	\centering
     \begin{subfigure}[t]{0.4\textwidth}
@@ -48,17 +48,7 @@
         \includegraphics*[width=\textwidth]{temp_scaling/temp_ms_L2000.png}
         \caption*{$L = 2000$}
     \end{subfigure}
-	\caption{Пики магнитной восприимчивости конформаций полученных при разных температурах, цветом обозначено значение $U$ при генерации. Ширина прямоугольников уменьшается при увеличении $U$, чтобы лучше различать значения}
+	\caption{Пики магнитной восприимчивости конформаций полученных при разных температурах, цветом обозначено значение $U$ при генерации.}
 	\label{fig:temp_scaling_ms}
 \end{figure}
 
-
-\begin{figure}[ht]
-    \centering
-    \begin{subfigure}{0.4\textwidth}
-        \resizebox{\textwidth}{!}{\input{images/temp_scaling/temp_mag2_U0.5.pgf}}
-    \end{subfigure}
-    \begin{subfigure}{0.4\textwidth}
-        \resizebox{\textwidth}{!}{\input{images/temp_scaling/temp_mag2_U0.6.pgf}}
-    \end{subfigure}
-\end{figure}
