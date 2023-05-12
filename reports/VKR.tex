@@ -1,5 +1,6 @@
 \documentclass[hidelinks, a4paper,14pt]{extarticle}
 
+% \usepackage{endfloat} % передвинуть все картинки вниз
 %%% Работа с русским языком
 \usepackage{cmap}					% поиск в PDF
 \usepackage{mathtext} 				% русские буквы в фомулах
@@ -76,8 +77,9 @@
 % \input{Sections/General}
 \input{Sections/Model}
 
-\input{Sections/Code}
+\input{Sections/Literature}
 
+\input{Sections/Code}
 
 \input{Sections/Measurements}
 
@@ -85,7 +87,9 @@
 
 \input{Sections/Low_temperature}
 
-\input{Sections/Temperature_scaling.tex}
+\input{Sections/Temperature_scaling}
+
+\input{Sections/Conclusion}
 
 \newpage
 \nocite{*}
