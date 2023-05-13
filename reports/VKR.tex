@@ -13,7 +13,7 @@
 \usepackage{amsmath}
 \usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
 
-
+\usepackage{pdfpages}
 % matplotlib plots
 \usepackage{pgf}
 \usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
@@ -36,14 +36,9 @@
 \usepackage{setspace} % междустрочный интервал
 \onehalfspacing % полуторный интервал
 
-
-% referenses
-% \usepackage{cite}
-
-
 %% Шрифты
 % \usepackage{euscript}	 % Шрифт Евклид
-\usepackage{mathptmx} % Красивый матшрифт
+\usepackage{mathptmx} % Шрифт похожий на Times New Roman
 
 %%% Работа с картинками
 \usepackage{graphicx}  % Для вставки рисунков
@@ -62,7 +57,9 @@
 
 \begin{document}
 
-\maketitle
+% \maketitle
+\includepdf{VKR_title.pdf}
+\includepdf{VKR_tz.pdf}
 
 \newpage
 \input{Sections/Annotation_ru}
