@@ -50,11 +50,6 @@
 \usepackage{subcaption}
 \captionsetup{labelsep=period} %. вместо : в рис
 
-\title{Отчёт по проекту Решеточные модели макромолекул}
-%\title{Информация о замерах}
-\author{Москаленко Р. Б.}
-\date{24.05.2021}
-
 \begin{document}
 
 % \maketitle
@@ -63,9 +58,11 @@
 
 \newpage
 \input{Sections/Annotation_ru}
+\newpage
 \input{Sections/Annotation_eng}
 
 \newpage
+\setcounter{tocdepth}{1} % глубина 1
 \tableofcontents
 \newpage
 %\input{Sections/Introduction}
@@ -74,7 +71,7 @@
 % \input{Sections/General}
 \input{Sections/Model}
 
-\input{Sections/Literature}
+% \input{Sections/Literature}
 
 \input{Sections/Code}
 
@@ -82,7 +79,7 @@
 
 \input{Sections/Magnetic_succeptibility}
 
-\input{Sections/Low_temperature}
+\input{Sections/High_temperature}
 
 \input{Sections/Temperature_scaling}
 

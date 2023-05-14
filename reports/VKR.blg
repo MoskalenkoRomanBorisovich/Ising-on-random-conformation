@@ -14,45 +14,45 @@ Database file #1: bibliography.bib
 Warning--empty journal in ising
 
 Done.
-You've used 6 entries,
+You've used 8 entries,
             4087 wiz_defined-function locations,
-            853 strings with 7929 characters,
-and the built_in function-call counts, 2724 in all, are:
-= -- 217
-> -- 29
-< -- 13
-+ -- 17
-- -- 5
-* -- 117
-:= -- 479
-add.period$ -- 12
-call.type$ -- 6
-change.case$ -- 5
+            867 strings with 8295 characters,
+and the built_in function-call counts, 3797 in all, are:
+= -- 311
+> -- 51
+< -- 16
++ -- 27
+- -- 10
+* -- 161
+:= -- 650
+add.period$ -- 16
+call.type$ -- 8
+change.case$ -- 6
 chr.to.int$ -- 24
-cite$ -- 7
-duplicate$ -- 223
-empty$ -- 248
-format.name$ -- 5
-if$ -- 606
+cite$ -- 9
+duplicate$ -- 313
+empty$ -- 345
+format.name$ -- 12
+if$ -- 862
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 36
-newline$ -- 41
-num.names$ -- 5
-pop$ -- 87
+int.to.str$ -- 8
+missing$ -- 52
+newline$ -- 47
+num.names$ -- 7
+pop$ -- 126
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 220
+skip$ -- 315
 stack$ -- 0
-substring$ -- 67
-swap$ -- 141
-text.length$ -- 5
+substring$ -- 80
+swap$ -- 205
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 6
+type$ -- 8
 warning$ -- 1
-while$ -- 10
-width$ -- 7
-write$ -- 71
+while$ -- 13
+width$ -- 9
+write$ -- 89
 (There was 1 warning)

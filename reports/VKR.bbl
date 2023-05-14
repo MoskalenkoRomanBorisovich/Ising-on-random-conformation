@@ -24,9 +24,19 @@
 \bibitem{ising}
 E.~Ising, ``Contribution to the theory of ferromagnetism,'' 1925.
 
+\bibitem{SAW_polymer}
+J.~Des~Cloizeaux and G.~Jannink, \emph{Polymers in solution: their modelling
+  and structure}.\hskip 1em plus 0.5em minus 0.4em\relax Oxford University
+  Press on Demand, 1990.
+
 \bibitem{ising_solutions}
 R.~J. Baxter, \emph{Exactly Solved Models in Statistical Mechanics}.\hskip 1em
   plus 0.5em minus 0.4em\relax Elsevier, 2016.
+
+\bibitem{SAW_polymer_critical}
+S.~Caracciolo, M.~Papinutto, and A.~Pelissetto, ``Dynamic critical behavior of
+  an extended reptation dynamics for self-avoiding walks,'' \emph{Physical
+  Review E}, vol.~65, no.~3, p. 031106, 2002.
 
 \bibitem{wolf_algorithm}
 U.~Wolff, ``Collective monte carlo updating for spin systems,'' \emph{Physical
