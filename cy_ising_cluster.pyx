@@ -30,7 +30,7 @@ cdef np.ndarray[np.int64_t, ndim=1] init_spins(int L,
 @cython.boundscheck(False)
 @cython.wraparound(False)
 cdef double energy(np.ndarray[np.int64_t, ndim=1] spins, 
-                   np.ndarray[np.int64_t, ndim=1] neighbors,
+                   np.ndarray[np.int64_t, ndim=2] neighbors,
                    double J=1.0):
     """Ising model energy of a spin state.
     """
@@ -75,7 +75,7 @@ cdef void tabulate_ratios(double[::1] ratios,
 @cython.boundscheck(False)
 @cython.wraparound(False)
 cdef void flip_spin(np.ndarray[np.int64_t, ndim=1] spins, 
-                    np.ndarray[np.int64_t, ndim=1] neighbors,
+                    np.ndarray[np.int64_t, ndim=2] neighbors,
                     double beta,
                     const double[::1] ratios,
                     RndmWrapper rndm,
@@ -106,7 +106,7 @@ cdef void flip_spin(np.ndarray[np.int64_t, ndim=1] spins,
 @cython.boundscheck(False)
 @cython.wraparound(False)
 cdef void cluster_update(np.ndarray[np.int64_t, ndim=1] spins,
-                         np.ndarray[np.int64_t, ndim=1] neighbors,
+                         np.ndarray[np.int64_t, ndim=2] neighbors,
                          double p,
                          RndmWrapper rndm):
     '''
@@ -153,7 +153,7 @@ cdef void cluster_update(np.ndarray[np.int64_t, ndim=1] spins,
 
 ##########################################################################
 
-def simulate(np.ndarray[np.int64_t, ndim=1] neighbors,
+def simulate(np.ndarray[np.int64_t, ndim=2] neighbors,
              double beta,
              Py_ssize_t num_sweeps,
              int num_therm=100000,
