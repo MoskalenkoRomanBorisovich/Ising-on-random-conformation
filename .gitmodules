@@ -1,0 +1,3 @@
+[submodule "extern/ising-sim"]
+	path = extern/ising-sim
+	url = https://github.com/MoskalenkoRomanBorisovich/ising-sim
